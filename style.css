@@ -1,0 +1,3602 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a,
+button,
+input,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  appearance: none;
+  background: none;
+  color: black;
+}
+
+hr {
+  width: 100%;
+  border: none;
+  border-top: 3px solid #33322E;
+  color: #33322E;
+  overflow: visible;
+  text-align: center;
+  height: 2.5rem;
+  padding: 1rem;
+  top: 0.5rem;
+  position: relative;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.home-v-3-pixel-perfect,
+.home-v-3-pixel-perfect * {
+  box-sizing: border-box;
+}
+
+.home-v-3-pixel-perfect {
+  background: #a0e1e1;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Jost", sans-serif;
+}
+
+.home-v-3-pixel-perfect>* {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.frame {
+  padding: 6rem;
+  gap: 1rem;
+  width: 100%
+}
+
+#top {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.black-transparent-logo-1 {
+  height: 43px;
+}
+
+.a-design-studio {
+  color: #000000;
+  text-align: center;
+  font: 600 85px/100px "Jost", sans-serif;
+  padding: 4rem 0;
+}
+
+.maximize-your-business-through-on-demand-flexibility-in-design {
+  color: #000000;
+  font-weight: 200;
+  text-align: center;
+  font-size: 28px;
+  line-height: 50px;
+}
+
+.rectangle-1 {
+  background: #21231d;
+  margin-bottom: 3rem;
+}
+
+button#see-pricing {
+  margin-bottom: 1rem;
+}
+
+.see-pricing {
+  color: #a0e1e1;
+  text-align: left;
+  font: 500 22px/50px "Jost", sans-serif;
+  padding: 2rem;
+  line-height: 3.8rem;
+  font-size: 1.3rem;
+}
+
+.star {
+  top: -48px;
+  position: relative;
+}
+
+span {
+  text-align: left;
+}
+
+.underline-02 {
+  overflow: hidden;
+  position: absolute;
+  left: -67px;
+  top: 80px;
+}
+
+.underline {
+  inset: 0;
+}
+
+
+#top-slider {
+  transform: translateX(125px);
+}
+
+#top-slider-track {
+  height: 24rem;
+  width: 100%;
+}
+
+#top-slider img {
+  padding: 0 0.5rem;
+  height: 23rem;
+}
+
+.group {
+  left: 0px;
+  top: 88px;
+  overflow: visible;
+}
+
+.pricing {
+  inset: 0;
+}
+
+.fair-simple-pricing-for-all {
+  color: #000000;
+  text-align: center;
+  font: 500 40px/140% "Jost", sans-serif;
+}
+
+.tailored-pricing-for-businesses-of-every-scale-clear-transparency-on-your-costs {
+  color: #000000;
+  text-align: center;
+  font: 200 28px/140% "Jost", sans-serif;
+  left: calc(50% - 471px);
+  top: 6013px;
+}
+
+.cost-table {
+  border-radius: 25px;
+  border: #a0e1e1 solid 5px;
+  display: grid;
+  grid-auto-flow: column;
+  width: 90vw;
+  gap: 2px;
+  overflow: hidden;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr 1fr auto;
+}
+
+.cost-table-border {
+  margin-top: 2rem;
+  background-color: #a0e1e1;
+}
+
+.price {
+  flex-wrap: nowrap;
+  display: inline-flex;
+  gap: 5px;
+  align-items: first baseline;
+}
+
+.cost-table>* {
+  background: #ffffff;
+  padding: 2em 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.cost-table .common {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  padding: 2rem 3rem;
+  max-width: 30rem;
+}
+
+.cost-table .common>* {
+  display: flex;
+  flex-direction: column;
+}
+
+.cost-table .common img {
+  width: 6.5rem
+}
+
+.cost-table h3 {
+  text-align: left;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  position: relative;
+  font-size: 1.6rem;
+}
+
+.save {
+  position: absolute;
+  top: -1em;
+}
+
+.discover-how-design-ideate-operates-and-how-it-can-be-beneficial-for-you {
+  color: #000000;
+  text-align: left;
+  font: 200 22px/140% "Jost", sans-serif;
+  left: 928px;
+  top: 6833px;
+}
+
+.contact-our-sales-team-to-inquire-about-our-discounted-annual-pricing {
+  color: #000000;
+  text-align: left;
+  font: 200 22px/140% "Jost", sans-serif;
+  left: 928px;
+  top: 6582px;
+}
+
+.design-ideate-uses-stripe-for-secured-payment-on-usd-currency {
+  color: #000000;
+  text-align: left;
+  font: 200 22px/140% "Jost", sans-serif;
+  left: 928px;
+  top: 6336px;
+}
+
+.line-6 {
+  border-style: solid;
+  border-color: #a0e1e1;
+  border-width: 2px 0 0 0;
+
+  left: 489px;
+  top: 6132px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+
+.line-9 {
+  border-style: solid;
+  border-color: #a0e1e1;
+  border-width: 2px 0 0 0;
+
+  left: 878px;
+  top: 6132px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+
+.line-7 {
+  border-style: solid;
+  border-color: #a0e1e1;
+  border-width: 2px 0 0 0;
+
+  left: 100px;
+  top: 6565px;
+}
+
+.line-8 {
+  border-style: solid;
+  border-color: #a0e1e1;
+  border-width: 2px 0 0 0;
+
+  left: 489px;
+  top: 6565px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+
+.design-column {
+  padding-left: 3rem;
+}
+
+.what-s-included {
+  color: #000000;
+  text-align: center;
+  font: 500 22px/140% "Jost", sans-serif;
+  left: 141px;
+  top: 6615px;
+}
+
+.unlimited-requests-in-total {
+  color: #000000;
+  text-align: center;
+  font: 200 22px/140% "Jost", sans-serif;
+  left: 141px;
+  top: 6656px;
+}
+
+.average-72-hour-delivery {
+  color: #000000;
+  text-align: center;
+  font: 200 22px/140% "Jost", sans-serif;
+  left: 141px;
+  top: 6697px;
+}
+
+.one-request-at-a-time {
+  color: #000000;
+  text-align: center;
+  font: 200 22px/140% "Jost", sans-serif;
+  left: 141px;
+  top: 6861px;
+}
+
+.unlimited-users {
+  color: #000000;
+  text-align: center;
+  font: 200 22px/140% "Jost", sans-serif;
+  left: 141px;
+  top: 6738px;
+}
+
+.one-brand {
+  color: #000000;
+  text-align: center;
+  font: 200 22px/140% "Jost", sans-serif;
+  left: 141px;
+  top: 6820px;
+}
+
+.unlimited-stock-photos {
+  color: #000000;
+  text-align: center;
+  font: 200 22px/140% "Jost", sans-serif;
+  left: 141px;
+  top: 6779px;
+}
+
+.convenient-payment-methods {
+  color: #000000;
+  text-align: center;
+  font: 200 22px/140% "Jost", sans-serif;
+  left: 141px;
+  top: 6902px;
+}
+
+.cancel-or-pause-anytime {
+  color: #000000;
+  text-align: center;
+  font: 200 22px/140% "Jost", sans-serif;
+  left: 141px;
+  top: 6943px;
+}
+
+.save-20-for-limited-offer {
+  color: #e20088;
+  font: 500 12px/140% "Jost", sans-serif;
+  text-align: initial;
+}
+
+.tailored-for-those-looking-for-design-solutions {
+  color: #000000;
+  text-align: left;
+  font: 200 22px/140% "Jost", sans-serif;
+  left: 151px;
+  top: 6247px;
+}
+
+.design {
+  color: #000000;
+  text-align: center;
+  font: 500 28px/140% "Jost", sans-serif;
+  position: relative;
+}
+
+._2940 {
+  color: #000000;
+  text-align: center;
+  font: 500 26px/140% "Jost", sans-serif;
+  text-decoration: line-through;
+  left: 140px;
+  top: 6461px;
+}
+
+.badge#popular {
+  background: #f5f9ff;
+  border-radius: 100px;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 9rem;
+  position: absolute;
+  top: 19px;
+}
+
+.sdaff {
+  color: var(--dashboard-darkprimary, #1f2128);
+  text-align: left;
+  font: 200 13px/20px "Poppins", sans-serif;
+  position: relative;
+}
+
+.deco {
+  display: block;
+  height: 1px;
+  align-self: flex-start;
+}
+
+.round-star {
+  position: absolute;
+  right: -5rem;
+}
+
+.deco.right {
+  align-self: flex-end;
+}
+
+#deco-star {
+  width: 8rem;
+  left: 2rem;
+}
+
+.deco svg {
+  position: relative;
+  left: 5rem;
+  top: -70px;
+  width: 7rem
+}
+
+.deco.right svg {
+  left: unset;
+  right: 120px;
+}
+
+.component-11 {
+  flex-shrink: 0;
+  height: 2rem;
+  display: grid;
+  position: relative;
+  place-content: center;
+}
+
+.ellipse-18 {
+  background: var(--primary-color, #a0e1e1);
+  border-radius: 50%;
+
+  left: 0px;
+  top: 0px;
+}
+
+.check {
+  left: 3px;
+  top: 3px;
+  overflow: visible;
+}
+
+.button2 {
+
+  position: static;
+}
+
+.rectangle-12 {
+  background: #a0e1e1;
+  width: 19em;
+  margin: 2rem 0;
+}
+
+.get-started {
+  color: #21231d;
+  text-align: center;
+  font: 500 22px/50px "Jost", sans-serif;
+}
+
+._2450-month {
+  color: #000000;
+  text-align: center;
+  font: 500 28px/140% "Jost", sans-serif;
+  left: 230px;
+  top: 6459px;
+}
+
+.what-s-included2 {
+  color: #000000;
+  text-align: center;
+  font: 500 22px/140% "Jost", sans-serif;
+  left: 529px;
+  top: 6615px;
+}
+
+.cost-table ul {
+  list-style-position: inside;
+}
+
+.cost-table li {
+  color: #000000;
+  font: 200 22px/140% "Jost", sans-serif;
+}
+
+.all-the-design-plan-features {
+  color: #000000;
+  text-align: center;
+  font: 500 italic 22px/140% "Jost", sans-serif;
+  left: 529px;
+  top: 6656px;
+}
+
+.webflow-based-front-end-development {
+  color: #000000;
+  text-align: left;
+  font: 200 22px/140% "Jost", sans-serif;
+  left: 529px;
+  top: 6697px;
+}
+
+.continual-support-and-maintenance {
+  color: #000000;
+  text-align: left;
+  font: 200 22px/140% "Jost", sans-serif;
+  left: 529px;
+  top: 6769px;
+}
+
+.unlimited-brands {
+  color: #000000;
+  text-align: left;
+  font: 200 22px/140% "Jost", sans-serif;
+  left: 529px;
+  top: 6841px;
+}
+
+.save-20-for-limited-offer2 {
+  color: #e20088;
+  font: 500 12px/140% "Jost", sans-serif;
+
+}
+
+.tailored-for-those-to-set-up-a-no-code-website {
+  color: #000000;
+  text-align: left;
+  font: 200 22px/140% "Jost", sans-serif;
+  left: 540px;
+  top: 6247px;
+}
+
+.design-webflow {
+  color: #000000;
+  text-align: center;
+  font: 500 28px/140% "Jost", sans-serif;
+  left: 537px;
+  top: 6198px;
+}
+
+.book-a-call {
+  color: #000000;
+  text-align: center;
+  font: 500 28px/140% "Jost", sans-serif;
+  left: 928px;
+  top: 6784px;
+}
+
+.annual-pricing {
+  color: #000000;
+  text-align: center;
+  font: 500 28px/140% "Jost", sans-serif;
+  left: 928px;
+  top: 6533px;
+}
+
+.payment-methods {
+  color: #000000;
+  text-align: center;
+  font: 500 28px/140% "Jost", sans-serif;
+  left: 928px;
+  top: 6287px;
+}
+
+.rectangle-13 {
+  background: #a0e1e1;
+
+  left: calc(50% - 190px);
+  top: 6339px;
+}
+
+.get-started2 {
+  color: #21231d;
+  text-align: left;
+  font: 500 22px/50px "Jost", sans-serif;
+  left: 612px;
+  top: 6349px;
+}
+
+._2950-month {
+  color: #000000;
+  text-align: center;
+  font: 500 28px/140% "Jost", sans-serif;
+  left: 622px;
+  top: 6459px;
+}
+
+.button3 {
+
+  position: static;
+}
+
+.contact-us {
+  background: #21231d;
+  padding: 0.7em 3em;
+}
+
+.contact-us>* {
+  color: #a0e1e1;
+  text-align: left;
+  font: 500 22px/50px "Jost", sans-serif;
+}
+
+._3540 {
+  color: #000000;
+  text-align: center;
+  font: 500 26px/140% "Jost", sans-serif;
+  text-decoration: line-through;
+  left: 529px;
+  top: 6461px;
+}
+
+.pricing-frame {
+  position: relative;
+  top: -20px;
+  left: -15px;
+}
+
+#pricing {
+  padding: 0rem 0em 6rem 0rem;
+  width: 100%;
+  position: relative;
+  gap: 2rem;
+}
+
+.image-replace-services-10 {
+  background: #00c9f5;
+
+  left: 100px;
+  top: 2009px;
+  overflow: hidden;
+}
+
+.group-43854 {
+  inset: 0;
+}
+
+.group-43417 {
+
+  position: static;
+}
+
+.group-43416 {
+
+  position: static;
+}
+
+.group-43422 {
+
+  position: static;
+}
+
+.rectangle-2667 {
+  background: #c4c4c4;
+  border-radius: 18.08px;
+
+  left: -322.3px;
+  top: 0px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.rectangle-2664 {
+  background: #ffffff;
+  border-radius: 18.08px;
+
+  left: -322.3px;
+  top: 0px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.pricing2 {
+
+  position: static;
+}
+
+.image {
+
+  left: -197.06px;
+  top: 1431.51px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image2 {
+
+  left: -259.68px;
+  top: 715.75px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image3 {
+
+  left: -322.3px;
+  top: 0px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.group-43423 {
+
+  position: static;
+}
+
+.rectangle-26672 {
+  background: #c4c4c4;
+  border-radius: 18.08px;
+
+  left: 362.17px;
+  top: -59.88px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.rectangle-2665 {
+  background: #ffffff;
+  border-radius: 18.08px;
+
+  left: 362.17px;
+  top: -59.88px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.home {
+
+  position: static;
+}
+
+.image4 {
+
+  left: 928.07px;
+  top: 6412.43px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image5 {
+
+  left: 847.18px;
+  top: 5487.82px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image6 {
+
+  left: 766.28px;
+  top: 4563.2px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image7 {
+
+  left: 685.39px;
+  top: 3638.59px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image8 {
+
+  left: 604.5px;
+  top: 2713.98px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image9 {
+
+  left: 523.6px;
+  top: 1789.37px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image10 {
+
+  left: 442.71px;
+  top: 864.76px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image11 {
+
+  left: 361.82px;
+  top: -59.85px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.group-43424 {
+
+  position: static;
+}
+
+.rectangle-26673 {
+  background: #c4c4c4;
+  border-radius: 18.08px;
+
+  left: 1046.65px;
+  top: -119.77px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.rectangle-2666 {
+  background: #ffffff;
+  border-radius: 18.08px;
+
+  left: 1046.65px;
+  top: -119.77px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.about-us {
+
+  position: static;
+}
+
+.image12 {
+
+  left: 1361.09px;
+  top: 3476.65px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image13 {
+
+  left: 1282.43px;
+  top: 2577.55px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image14 {
+
+  left: 1203.77px;
+  top: 1678.45px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image15 {
+
+  left: 1125.11px;
+  top: 779.35px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image16 {
+
+  left: 1046.45px;
+  top: -119.75px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.group-43418 {
+
+  position: static;
+}
+
+.rectangle-26674 {
+  background: #c4c4c4;
+  border-radius: 18.08px;
+
+  left: -139.65px;
+  top: 444.13px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.rectangle-26642 {
+  background: #ffffff;
+  border-radius: 18.08px;
+
+  left: -139.65px;
+  top: 444.13px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.blog {
+
+  position: static;
+}
+
+.image17 {
+
+  left: -22.69px;
+  top: 1780.93px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image18 {
+
+  left: -81.17px;
+  top: 1112.53px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image19 {
+
+  left: -139.65px;
+  top: 444.13px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.rectangle-26675 {
+  background: #c4c4c4;
+  border-radius: 18.08px;
+
+  left: 544.82px;
+  top: 384.24px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.rectangle-26652 {
+  background: #ffffff;
+  border-radius: 18.08px;
+
+  left: 544.82px;
+  top: 384.24px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.contact {
+
+  position: static;
+}
+
+.image20 {
+
+  left: 666.96px;
+  top: 1780.24px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image21 {
+
+  left: 605.89px;
+  top: 1082.24px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image22 {
+
+  left: 544.82px;
+  top: 384.24px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.rectangle-26676 {
+  background: #c4c4c4;
+  border-radius: 18.08px;
+
+  left: 1229.3px;
+  top: 324.36px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.rectangle-26662 {
+  background: #ffffff;
+  border-radius: 18.08px;
+
+  left: 1229.3px;
+  top: 324.36px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.integrations {
+
+  position: static;
+}
+
+.image23 {
+
+  left: 1345.06px;
+  top: 1647.5px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image24 {
+
+  left: 1287.18px;
+  top: 985.93px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image25 {
+
+  left: 1229.3px;
+  top: 324.36px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.designs-that-consistently-maintain-high-quality-and-fast-delivery {
+  color: #000000;
+  text-align: center;
+  font: 200 28px/140% "Jost", sans-serif;
+  left: calc(50% - 375px);
+  top: 3184px;
+}
+
+#work {
+  background: #e3ecf8;
+}
+
+.recent-work2 {
+  color: #000000;
+  text-align: center;
+  font: 500 40px/140% "Jost", sans-serif;
+  left: calc(50% - 124px);
+  top: 3098px;
+}
+
+.works-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(2, 48vw);
+  overflow: hidden;
+  gap: 1rem;
+  padding: 2rem 0;
+  border-radius: 25px;
+}
+
+.works-grid * {
+  overflow: hidden;
+}
+
+.works-grid img {
+  height: 100%;
+}
+
+.image-replace-services-09 {
+  background: #2b2b3b;
+
+  left: 100px;
+  top: 3263px;
+  overflow: hidden;
+}
+
+.group-434172 {
+
+  position: static;
+}
+
+.group-434162 {
+
+  position: static;
+}
+
+.group-434222 {
+
+  position: static;
+}
+
+.rectangle-26677 {
+  background: #c4c4c4;
+  border-radius: 18.08px;
+
+  left: -771.21px;
+  top: 84.16px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.rectangle-26643 {
+  background: #c4c4c4;
+  border-radius: 18.08px;
+
+  left: -771.21px;
+  top: 84.16px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.pricing3 {
+
+  position: static;
+}
+
+.image26 {
+
+  left: -665.53px;
+  top: 1291.99px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image27 {
+
+  left: -718.37px;
+  top: 688.07px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image28 {
+
+  left: -771.21px;
+  top: 84.16px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.group-434232 {
+
+  position: static;
+}
+
+.rectangle-26678 {
+  background: #c4c4c4;
+  border-radius: 18.08px;
+
+  left: -193.68px;
+  top: 33.63px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.rectangle-26653 {
+  background: #c4c4c4;
+  border-radius: 18.08px;
+
+  left: -193.68px;
+  top: 33.63px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.home2 {
+
+  position: static;
+}
+
+.image29 {
+
+  left: 283.8px;
+  top: 5494.65px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image30 {
+
+  left: 215.54px;
+  top: 4714.51px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image31 {
+
+  left: 147.29px;
+  top: 3934.37px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image32 {
+
+  left: 79.03px;
+  top: 3154.23px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image33 {
+
+  left: 10.78px;
+  top: 2374.08px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image34 {
+
+  left: -57.47px;
+  top: 1593.94px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image35 {
+
+  left: -125.73px;
+  top: 813.8px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image36 {
+
+  left: -193.98px;
+  top: 33.65px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.group-434242 {
+
+  position: static;
+}
+
+.rectangle-26679 {
+  background: #c4c4c4;
+  border-radius: 18.08px;
+
+  left: 383.85px;
+  top: -16.9px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.rectangle-26663 {
+  background: #c4c4c4;
+  border-radius: 18.08px;
+
+  left: 383.85px;
+  top: -16.9px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.about-us2 {
+
+  position: static;
+}
+
+.image37 {
+
+  left: 649.16px;
+  top: 3017.59px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image38 {
+
+  left: 582.79px;
+  top: 2258.97px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image39 {
+
+  left: 516.42px;
+  top: 1500.35px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image40 {
+
+  left: 450.05px;
+  top: 741.73px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image41 {
+
+  left: 383.68px;
+  top: -16.88px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.group-434182 {
+
+  position: static;
+}
+
+.rectangle-266710 {
+  background: #c4c4c4;
+  border-radius: 18.08px;
+
+  left: -617.09px;
+  top: 458.89px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.rectangle-26644 {
+  background: #c4c4c4;
+  border-radius: 18.08px;
+
+  left: -617.09px;
+  top: 458.89px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.blog2 {
+
+  position: static;
+}
+
+.image42 {
+
+  left: -518.41px;
+  top: 1586.82px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image43 {
+
+  left: -567.75px;
+  top: 1022.85px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image44 {
+
+  left: -617.09px;
+  top: 458.89px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.rectangle-266711 {
+  background: #c4c4c4;
+  border-radius: 18.08px;
+
+  left: -39.57px;
+  top: 408.36px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.rectangle-26654 {
+  background: #c4c4c4;
+  border-radius: 18.08px;
+
+  left: -39.57px;
+  top: 408.36px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.contact2 {
+
+  position: static;
+}
+
+.image45 {
+
+  left: 63.48px;
+  top: 1586.23px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image46 {
+
+  left: 11.96px;
+  top: 997.3px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image47 {
+
+  left: -39.57px;
+  top: 408.36px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.rectangle-266712 {
+  background: #c4c4c4;
+  border-radius: 18.08px;
+
+  left: 537.96px;
+  top: 357.83px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.rectangle-26664 {
+  background: #c4c4c4;
+  border-radius: 18.08px;
+
+  left: 537.96px;
+  top: 357.83px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.integrations2 {
+
+  position: static;
+}
+
+.image48 {
+
+  left: 635.63px;
+  top: 1474.24px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image49 {
+
+  left: 586.79px;
+  top: 916.03px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.image50 {
+
+  left: 537.96px;
+  top: 357.83px;
+  transform-origin: 0 0;
+  transform: rotate(-5deg) scale(1, 1);
+}
+
+.four-screen {
+  background: #ffffff;
+
+  left: 742px;
+  top: 3263px;
+  overflow: hidden;
+}
+
+.four-screen2 {
+
+  left: -80px;
+  top: 0px;
+}
+
+.isometric-mockups-3-1 {
+
+  left: 742px;
+  top: 2009px;
+}
+
+.rectangle-15 {
+  background: #21231d;
+}
+
+.request-more-work {
+  color: #a0e1e1;
+  text-align: left;
+  font: 500 22px/50px "Jost", sans-serif;
+  left: 626px;
+  top: 4801px;
+}
+
+.fly {
+  left: 1197px;
+  top: 2940px;
+  transform: translate(-56px, 0px);
+  overflow: visible;
+}
+
+#package {
+  padding: 6rem 3rem;
+}
+
+.if-your-specific-design-isn-t-mentioned-in-the-list-please-inform-us-and-we-ll-explore-the-possibility-of-tailoring-it-to-meet-your-requirements {
+  color: #000000;
+  text-align: center;
+  font: 200 28px/140% "Jost", sans-serif;
+  max-width: 65rem;
+}
+
+.we-engage-in-the-creation-of-various-designs {
+  color: #000000;
+  text-align: center;
+  font: 500 40px/140% "Jost", sans-serif;
+}
+
+.we-engage-in-the-creation-of-various-designs::before {
+  width: 4rem;
+}
+
+.todos {
+  background: #f9f3e5;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: var(--black, #33322e);
+  border-width: 4px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: var(--shadow-12-px-box-shadow,
+      12px 12px 0px 0px rgba(51, 50, 46, 1));
+  overflow: hidden;
+  width: 95%;
+  height: auto;
+  margin: 3rem 0;
+  padding-bottom: 4rem;
+}
+
+.group-29 {
+  width: 60%
+}
+
+.our-package-includes {
+  color: var(--black, #33322e);
+  text-align: center;
+  font: 700 40px/120% "Jost", sans-serif;
+  padding: 1rem;
+}
+
+
+.our-package-includes2 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 5rem;
+}
+
+.todos2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  left: 151px;
+  top: 5496px;
+}
+
+.todo-type-1-completed {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.bullet-checkbox-completed {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.wireframes {
+  color: var(--black, #33322e);
+  text-align: left;
+  font: 500 20px/130% "Jost", sans-serif;
+  position: relative;
+}
+
+.todo-type-1-completed2 {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  left: 151px;
+  top: 5634px;
+}
+
+.bullet-checkbox-completed2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.packaging {
+  color: var(--black, #33322e);
+  text-align: left;
+  font: 500 20px/130% "Jost", sans-serif;
+  position: relative;
+}
+
+.todo-type-1-completed3 {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  left: 151px;
+  top: 5702px;
+}
+
+.bullet-checkbox-completed3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.banners {
+  color: var(--black, #33322e);
+  text-align: left;
+  font: 500 20px/130% "Jost", sans-serif;
+  position: relative;
+}
+
+.bullet-checkbox-completed4 {
+  left: 904px;
+  top: 5700px;
+  overflow: visible;
+}
+
+.bullet-checkbox-completed5 {
+  left: 460px;
+  top: 5702px;
+  overflow: visible;
+}
+
+.thumbnail-design {
+  color: var(--black, #33322e);
+  text-align: left;
+  font: 500 20px/130% "Jost", sans-serif;
+  left: 951px;
+  top: 5700px;
+}
+
+.business-cards {
+  color: var(--black, #33322e);
+  text-align: left;
+  font: 500 20px/130% "Jost", sans-serif;
+  left: 507px;
+  top: 5702px;
+}
+
+.todo-type-1-completed4 {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  left: 460px;
+  top: 5634px;
+}
+
+.bullet-checkbox-completed6 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.pitch-decks {
+  color: var(--black, #33322e);
+  text-align: left;
+  font: 500 20px/130% "Jost", sans-serif;
+  position: relative;
+}
+
+.todo-type-1-completed5 {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  left: 904px;
+  top: 5632px;
+}
+
+.bullet-checkbox-completed7 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.brochures {
+  color: var(--black, #33322e);
+  text-align: left;
+  font: 500 20px/130% "Jost", sans-serif;
+  position: relative;
+}
+
+.todo-type-1-completed6 {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  left: 460px;
+  top: 5428px;
+}
+
+.bullet-checkbox-completed8 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.website-design {
+  color: var(--black, #33322e);
+  text-align: left;
+  font: 500 20px/130% "Jost", sans-serif;
+  position: relative;
+}
+
+.todo-type-1-completed7 {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  left: 460px;
+  top: 5496px;
+}
+
+.bullet-checkbox-completed9 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.infographics-and-brochures {
+  color: var(--black, #33322e);
+  text-align: left;
+  font: 500 20px/130% "Jost", sans-serif;
+  position: relative;
+}
+
+.todo-type-1-completed8 {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  left: 460px;
+  top: 5566px;
+}
+
+.bullet-checkbox-completed10 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.brand-guidelines {
+  color: var(--black, #33322e);
+  text-align: left;
+  font: 500 20px/130% "Jost", sans-serif;
+  position: relative;
+}
+
+.todo-type-1-completed9 {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  left: 904px;
+  top: 5428px;
+}
+
+.bullet-checkbox-completed11 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.digital-ads {
+  color: var(--black, #33322e);
+  text-align: left;
+  font: 500 20px/130% "Jost", sans-serif;
+  position: relative;
+}
+
+.todo-type-1-completed10 {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  left: 904px;
+  top: 5564px;
+}
+
+.bullet-checkbox-completed12 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.social-media-design {
+  color: var(--black, #33322e);
+  text-align: left;
+  font: 500 20px/130% "Jost", sans-serif;
+  position: relative;
+}
+
+.todo-type-1-completed11 {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  left: 151px;
+  top: 5566px;
+}
+
+.bullet-checkbox-completed13 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.illustrations {
+  color: var(--black, #33322e);
+  text-align: left;
+  font: 500 20px/130% "Jost", sans-serif;
+  position: relative;
+}
+
+.todo-type-1-completed12 {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  left: 151px;
+  top: 5428px;
+}
+
+.bullet-checkbox-completed14 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.mobile-apps {
+  color: var(--black, #33322e);
+  text-align: left;
+  font: 500 20px/130% "Jost", sans-serif;
+  position: relative;
+}
+
+.todo-type-1-completed13 {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  left: 904px;
+  top: 5496px;
+}
+
+.bullet-checkbox-completed15 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.design-systems {
+  color: var(--black, #33322e);
+  text-align: left;
+  font: 500 20px/130% "Jost", sans-serif;
+  position: relative;
+}
+
+._4-stars {
+
+  position: static;
+}
+
+.ellipse-2 {
+  left: 40px;
+  top: 4913px;
+  overflow: visible;
+}
+
+.group2 {
+
+  position: static;
+}
+
+.group3 {
+
+  position: static;
+}
+
+.group4 {
+  left: 97px;
+  top: 4830px;
+  overflow: visible;
+}
+
+.group5 {
+
+  position: static;
+}
+
+.group6 {
+  left: 40px;
+  top: 4877px;
+  overflow: visible;
+}
+
+.group7 {
+
+  position: static;
+}
+
+.group8 {
+  left: 130px;
+  top: 4925px;
+  overflow: visible;
+}
+
+.group9 {
+
+  position: static;
+}
+
+.group10 {
+  left: 156px;
+  top: 4862px;
+  overflow: visible;
+}
+
+#explan {
+  flex-direction: row;
+  padding: 6rem 5rem;
+  gap: 4rem;
+}
+
+.communicate-channels {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.communicate-channels * {
+  vertical-align: bottom;
+}
+
+.communicate-channels h3 {
+  padding-bottom: 0.25em;
+}
+
+.group-39492-1 {
+  background: #21231d;
+  border-radius: 25px;
+}
+
+
+.share-your-design-content-logos-or-any-user-research-insights-that-will-guide-the-creation-of-your-design {
+  color: #21231d;
+  text-align: left;
+  font: 200 22px/140% "Jost", sans-serif;
+}
+
+.share-your-media-assets-on {
+  color: #21231d;
+  font: 500 28px/140% "Jost", sans-serif;
+}
+
+.drive {
+  left: 1072px;
+  top: 8167px;
+  overflow: visible;
+}
+
+.google-drive2 {
+  color: #21231d;
+  text-align: center;
+  font: 500 28px/140% "Jost", sans-serif;
+}
+
+.utilize-trello-to-oversee-your-design-board-effortlessly-track-active-queued-and-finished-tasks {
+  color: #21231d;
+  text-align: left;
+  font: 200 22px/140% "Jost", sans-serif;
+}
+
+.administer-through {
+  color: #21231d;
+  font: 500 28px/140% "Jost", sans-serif;
+}
+
+.vector48 {
+  left: 969px;
+  top: 8027px;
+  overflow: visible;
+}
+
+.slack {
+
+  position: static;
+}
+
+.engage-in-continuous-conversations-with-your-dedicated-designer-by-integrating-them-into-your-email {
+  color: #21231d;
+  text-align: left;
+  font: 200 22px/140% "Jost", sans-serif;
+}
+
+.communicate-through-email {
+  color: #21231d;
+  font: 500 28px/140% "Jost", sans-serif;
+  left: calc(50% - 5px);
+}
+
+.image-2 {
+
+  left: 1004px;
+  top: 7880px;
+}
+
+.rectangle-8 {
+  background: #21231d;
+}
+
+.what-s-the-process {
+  padding-top: 4rem;
+}
+
+.what-s-the-process span {
+  text-align: center;
+  color: #a0e1e1;
+
+  font: 500 40px/140% "Jost", sans-serif;
+}
+
+.frame2 {
+  position: relative;
+  top: -2rem;
+}
+
+.next {
+  position: relative;
+  top: -30px;
+}
+
+#action {
+  padding: 6rem 3rem;
+}
+
+.footer-desktop {
+  padding-bottom: 10rem;
+  display: flex;
+  width: 80vw;
+  flex-direction: row !important;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-desktop img {
+  padding: 0 5rem;
+}
+
+.footer-mobile {
+  display: none;
+}
+
+.submit-your-ticket-on-trello-and-write-about-your-request {
+  color: #a0e1e1;
+  text-align: center;
+  font: 200 22px/140% "Jost", sans-serif;
+}
+
+.we-schedule-and-estimate-days-on-tasks {
+  color: #a0e1e1;
+  text-align: center;
+  font: 200 22px/140% "Jost", sans-serif;
+  left: calc(50% - 329px);
+  top: 7483px;
+}
+
+.we-work-on-the-designs-in-our-fastest-rate {
+  color: #a0e1e1;
+  text-align: center;
+  font: 200 22px/140% "Jost", sans-serif;
+  left: calc(50% - 130px);
+  top: 7483px;
+}
+
+.we-make-the-revisions-up-to-your-standard {
+  width: 11em;
+  color: #a0e1e1;
+  text-align: center;
+  font: 200 22px/140% "Jost", sans-serif;
+  left: calc(50% - 15px);
+  top: 7619px;
+}
+
+.we-notify-you-and-review-the-designs {
+  color: #a0e1e1;
+  text-align: center;
+  font: 200 22px/140% "Jost", sans-serif;
+  left: calc(50% - -138px);
+  top: 7483px;
+}
+
+.we-assure-the-top-tier-quality {
+  color: #a0e1e1;
+  text-align: center;
+  font: 200 22px/140% "Jost", sans-serif;
+  left: calc(50% - -366px);
+  top: 7483px;
+}
+
+#process {
+  padding: 1rem;
+  background: #21231d;
+  padding-bottom: 4rem;
+}
+
+.progress-model {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 3rem 0;
+}
+
+.progress-model p {
+  font-size: 1.6rem;
+}
+
+.frame-247 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
+.progress-model .steps {
+  display: grid;
+  place-content: center;
+  padding: 1em 2.5em;
+  border-radius: 25px;
+}
+
+.progress-model .desc {
+  padding-top: 1em;
+  font-size: 1.5em;
+}
+
+
+.frame-147 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 88.47px;
+  border-style: solid;
+  border-color: #a0e1e1;
+  border-width: 1px;
+  padding: 14.16px 42.47px 14.16px 42.47px;
+  display: flex;
+  flex-direction: row;
+  gap: 8.85px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+
+  position: relative;
+}
+
+.submit-request-group {
+  width: 19rem
+}
+
+.submit-request {
+  color: #a0e1e1;
+  text-align: left;
+  font: 700 28px/161% "Jost", sans-serif;
+  position: relative;
+}
+
+.line-5 {
+  border-radius: 0px;
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(-0.02px, -4.41px);
+  overflow: visible;
+}
+
+.frame-154 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 88.47px;
+  border-style: solid;
+  border-color: #a0e1e1;
+  border-width: 1px;
+  padding: 14.16px 42.47px 14.16px 42.47px;
+  display: flex;
+  flex-direction: row;
+  gap: 8.85px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+
+  position: relative;
+}
+
+.to-do-group {
+  width: 11rem
+}
+
+.to-do {
+  color: #a0e1e1;
+  text-align: left;
+  font: 700 28px/161% "Jost", sans-serif;
+  position: relative;
+}
+
+.line-1 {
+  border-radius: 0px;
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(-0.02px, -4.41px);
+  overflow: visible;
+}
+
+.frame-152 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 88.47px;
+  border-style: solid;
+  border-color: #a0e1e1;
+  border-width: 1px;
+  padding: 14.16px 42.47px 14.16px 42.47px;
+  display: flex;
+  flex-direction: row;
+  gap: 8.85px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+
+  position: relative;
+}
+
+.in-progress-group {
+  width: 16rem
+}
+
+.in-progress {
+  color: #a0e1e1;
+  text-align: left;
+  font: 700 28px/161% "DM Sans", sans-serif;
+  position: relative;
+}
+
+.line-3 {
+  border-radius: 0px;
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(-0.02px, -4.41px);
+  overflow: visible;
+}
+
+.frame-146 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 88.47px;
+  border-style: solid;
+  border-color: #a0e1e1;
+  border-width: 1px;
+  padding: 14.16px 42.47px 14.16px 42.47px;
+  display: flex;
+  flex-direction: row;
+  gap: 8.85px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+
+  position: relative;
+}
+
+.review-group {
+  width: 11rem;
+}
+
+.review {
+  color: #a0e1e1;
+  text-align: left;
+  font: 700 28px/161% "DM Sans", sans-serif;
+  position: relative;
+}
+
+.line-2 {
+  border-radius: 0px;
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(-0.02px, -4.41px);
+  overflow: visible;
+}
+
+.frame-151 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 88.47px;
+  border-style: solid;
+  border-color: #a0e1e1;
+  border-width: 1px;
+  padding: 14.16px 42.47px 14.16px 42.47px;
+  display: flex;
+  flex-direction: row;
+  gap: 8.85px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+
+  position: relative;
+}
+
+.testing {
+  color: #a0e1e1;
+  text-align: left;
+  font: 700 28px/161% "DM Sans", sans-serif;
+  position: relative;
+}
+
+.line-4 {
+  border-radius: 0px;
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(-0.02px, -4.41px);
+  overflow: visible;
+}
+
+.frame-153 {
+  background: #a0e1e1;
+  border-radius: 100%;
+  padding: 1em;
+  flex-shrink: 0;
+  position: relative;
+  top: 6px;
+}
+
+.check2 {
+  top: 6px;
+  position: relative;
+}
+
+.revise-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  left: 7rem;
+}
+
+
+.vector-15 {
+  left: 705px;
+  top: 7556px;
+  overflow: visible;
+}
+
+#faq {
+  background: #21231d;
+  width: 100%;
+  padding: 6rem 3rem;
+}
+
+.shapes {
+  justify-self: flex-end;
+}
+
+.accordion-title-text {
+  color: #ffffff;
+  text-align: left;
+  font: 500 28px/140% "Jost", sans-serif;
+  left: 266px;
+  top: 10282px;
+}
+
+.our-skilled-designers-can-create-anything-from-an-android-app-to-a-brand-logo-check-out-our-package-for-some-ideas {
+  color: #ffffff;
+  text-align: left;
+  font: 200 28px/140% "Jost", sans-serif;
+  left: 266px;
+  top: 9937px;
+}
+
+.our-designers-do-not-create-motion-graphics-in-design-documents-physical-product-or-photography {
+  color: #ffffff;
+  text-align: left;
+  font: 200 28px/140% "Jost", sans-serif;
+  left: 266px;
+  top: 10139px;
+}
+
+.absolutely-not-there-s-no-need-to-mail-us-send-an-email-or-go-through-hoops-you-can-cancel-your-account-independently-at-any-time {
+  color: #ffffff;
+  text-align: left;
+  font: 200 28px/140% "Jost", sans-serif;
+  left: 266px;
+  top: 10341px;
+}
+
+.what-types-of-designs-can-design-ideate-create {
+  color: #ffffff;
+  text-align: left;
+  font: 500 28px/140% "Jost", sans-serif;
+  left: 266px;
+  top: 9878px;
+}
+
+.what-types-of-designs-does-design-ideate-not-handle {
+  color: #ffffff;
+  text-align: left;
+  font: 500 28px/140% "Jost", sans-serif;
+  left: 266px;
+  top: 10080px;
+}
+
+.we-understand-that-some-requests-require-immediate-attention-we-do-our-best-to-accommodate-rush-requests-when-they-arise {
+  color: #ffffff;
+  text-align: left;
+  font: 200 28px/140% "Jost", sans-serif;
+  left: 266px;
+  top: 9331px;
+}
+
+.you-can-submit-an-unlimited-number-of-requests-to-your-design-queue-at-any-time-and-your-designer-will-address-them-sequentially {
+  color: #ffffff;
+  text-align: left;
+  font: 200 28px/140% "Jost", sans-serif;
+  left: 266px;
+  top: 9533px;
+}
+
+.can-i-resell-any-of-the-work-created-by-design-ideate {
+  color: #ffffff;
+  text-align: left;
+  font: 500 28px/140% "Jost", sans-serif;
+  left: 266px;
+  top: 9070px;
+}
+
+.on-average-most-clients-receive-their-requests-within-a-few-business-days-occasionally-it-might-take-longer-based-on-the-request-s-complexity {
+  color: #ffffff;
+  text-align: left;
+  font: 200 28px/140% "Jost", sans-serif;
+  left: 266px;
+  top: 8927px;
+}
+
+.you-own-100-rights-to-the-designs-giving-you-the-freedom-to-use-them-as-you-see-fit {
+  color: #ffffff;
+  text-align: left;
+  font: 200 28px/140% "Jost", sans-serif;
+  left: 266px;
+  top: 9129px;
+}
+
+.absolutely-you-can-submit-an-unlimited-number-of-requests-to-your-design-queue-at-any-time-and-your-designer-will-work-through-them-one-by-one {
+  color: #ffffff;
+  text-align: left;
+  font: 200 28px/140% "Jost", sans-serif;
+  left: calc(50% - 454px);
+  top: 8637px;
+}
+
+.faqs-title {
+  display: grid;
+  align-items: center;
+  width: 75vw
+}
+
+.faqs-title>* {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.fa-qs2 {
+  color: #a0e1e1;
+  text-align: center;
+  font: 500 40px/140% "Jost", sans-serif;
+  justify-self: center;
+}
+
+.is-it-truly-unlimited-design {
+  color: #ffffff;
+  text-align: left;
+  font: 500 28px/140% "Jost", sans-serif;
+  left: calc(50% - 454px);
+  top: 8578px;
+}
+
+.how-quickly-will-i-receive-my-designs {
+  color: #ffffff;
+  text-align: left;
+  font: 500 28px/140% "Jost", sans-serif;
+  left: 266px;
+  top: 8780px;
+}
+
+.when-you-request-a-design-it-s-placed-in-your-design-queue-which-we-handle-on-a-first-come-first-served-basis {
+  color: #ffffff;
+  text-align: left;
+  font: 200 28px/140% "Jost", sans-serif;
+  left: 266px;
+  top: 8839px;
+}
+
+.rectangle-2671 {
+  background: #a0e1e1;
+
+  left: calc(50% - 454px);
+  top: 8745px;
+}
+
+.rectangle-2672 {
+  background: #a0e1e1;
+
+  left: calc(50% - 454px);
+  top: 9035px;
+}
+
+.rectangle-2673 {
+  background: #a0e1e1;
+
+  left: calc(50% - 454px);
+  top: 9237px;
+}
+
+.rectangle-2674 {
+  background: #a0e1e1;
+
+  left: calc(50% - 454px);
+  top: 9439px;
+}
+
+.rectangle-2675 {
+  background: #a0e1e1;
+
+  left: calc(50% - 454px);
+  top: 9641px;
+}
+
+.rectangle-2676 {
+  background: #a0e1e1;
+
+  left: calc(50% - 454px);
+  top: 9843px;
+}
+
+.rectangle-2677 {
+  background: #a0e1e1;
+
+  left: calc(50% - 454px);
+  top: 10045px;
+}
+
+.rectangle-2678 {
+  background: #a0e1e1;
+
+  left: calc(50% - 454px);
+  top: 10247px;
+}
+
+.i-have-an-urgent-request-what-should-i-do {
+  color: #ffffff;
+  text-align: left;
+  font: 500 28px/140% "Jost", sans-serif;
+  left: 266px;
+  top: 9272px;
+}
+
+.how-many-requests-can-i-submit-at-once {
+  color: #ffffff;
+  text-align: left;
+  font: 500 28px/140% "Jost", sans-serif;
+  left: 266px;
+  top: 9474px;
+}
+
+.how-many-brands-can-i-request-designs-for {
+  color: #ffffff;
+  text-align: left;
+  font: 500 28px/140% "Jost", sans-serif;
+  left: 266px;
+  top: 9676px;
+}
+
+.design-webflow-plan-members-can-submit-requests-for-an-unlimited-number-of-brands-while-design-plan-members-are-limited-to-one-brand {
+  color: #ffffff;
+  text-align: left;
+  font: 200 28px/140% "Jost", sans-serif;
+  left: 266px;
+  top: 9735px;
+}
+
+.let-s-get-started {
+  color: #000000;
+  text-align: center;
+  font: 700 85px/100px "Jost", sans-serif;
+  left: calc(50% - 316px);
+  top: 10619px;
+}
+
+.rectangle-16 {
+  background: #21231d;
+  padding: 1em 4em;
+}
+
+.sign-up {
+  color: #a0e1e1;
+  text-align: left;
+  font: 500 22px/50px "Jost", sans-serif;
+  left: 681px;
+  top: 10779px;
+}
+
+.carousel {
+
+  left: -320px;
+  top: 681px;
+}
+
+.carousel2 {
+  inset: 0;
+}
+
+._1 {
+
+  left: 0px;
+  top: 0px;
+}
+
+.rectangle-3 {
+  border-radius: 20px;
+
+  left: 0px;
+  top: 0px;
+}
+
+._2 {
+
+  left: 372px;
+  top: 0px;
+}
+
+.rectangle-4 {
+  border-radius: 20px;
+
+  left: 0px;
+  top: 0px;
+}
+
+._3 {
+
+  left: 744px;
+  top: 0px;
+}
+
+.rectangle-5 {
+  border-radius: 20px;
+
+  left: 0px;
+  top: 0px;
+}
+
+._4 {
+
+  left: 1116px;
+  top: 0px;
+}
+
+.rectangle-6 {
+  border-radius: 20px;
+
+  left: 0px;
+  top: 0px;
+}
+
+._5 {
+
+  left: 1488px;
+  top: 0px;
+}
+
+.rectangle-7 {
+  border-radius: 20px;
+
+  left: 0px;
+  top: 0px;
+}
+
+#benefits {
+  padding: 4rem 0 2rem 0;
+  background: #21231d;
+}
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  padding: 2rem 8rem;
+}
+
+.intro-grid>* {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem
+}
+
+.intro-grid img {
+  width: 8rem
+}
+
+.intro-grid h3 {
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.design-doesn-t-need-to-be-challenging-we-simplify-it-for-you {
+  color: #a0e1e1;
+  text-align: center;
+  font-weight: 500;
+  padding: 1rem;
+  line-height: 140%;
+  font-size: 40px;
+}
+
+.join-our-monthly-subscription-and-order-unlimited-designs {
+  color: #a0e1e1;
+  text-align: center;
+  font: 200 22px/140% "Jost", sans-serif;
+}
+
+.on-average-your-design-will-be-ready-within-3-to-5-business-days-mon-to-fri {
+  color: #a0e1e1;
+  text-align: center;
+  font: 200 22px/140% "Jost", sans-serif;
+}
+
+.we-re-committed-to-making-revisions-until-you-re-well-pleased-with-the-designs {
+  color: #a0e1e1;
+  text-align: center;
+  font: 200 22px/140% "Jost", sans-serif;
+}
+
+.frame3-title {
+  display: flex;
+  max-width: 64rem;
+  position: relative;
+}
+
+#benefits-grid {
+  padding: 2rem 2rem 0rem 2rem;
+  gap: 3rem 5rem;
+}
+
+.pay-a-monthly-fee-and-ask-for-as-many-designs-as-you-want-no-limits {
+  color: #21231d;
+  text-align: center;
+  font: 500 40px/140% "Jost", sans-serif;
+  display: inline-block;
+  padding: 0 5rem;
+  max-width: 60rem;
+}
+
+.we-do-things-differently-unlike-traditional-freelance-design-we-offer-a-subscription-service-to-substitutes-undependable-freelancers-and-costly-agencies {
+  color: #21231d;
+  text-align: center;
+  font: 200 28px/140% "Jost", sans-serif;
+  max-width: 65rem;
+}
+
+.underline-text {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.underline-text svg {
+  position: relative;
+  top: -16px;
+}
+
+.group11 {
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+
+.wired-outline-453-savings-pig-1 {
+
+  left: 228px;
+  top: 2237px;
+}
+
+.rectangle-17 {
+  background: #21231d;
+}
+
+.see-pricing2 {
+  color: #a0e1e1;
+  text-align: left;
+  font: 500 22px/50px "Jost", sans-serif;
+  left: 664px;
+  top: 2858px;
+
+}
+
+.wired-outline-955-demand-1-1 {
+
+  left: 653px;
+  top: 2242px;
+}
+
+.wired-outline-45-clock-time-1-1 {
+
+  left: 1076px;
+  top: 2247px;
+}
+
+.wired-outline-751-share-1 {
+
+  left: 1069px;
+  top: 2549px;
+}
+
+.wired-outline-35-edit-1-1 {
+
+  left: 228px;
+  top: 2526px;
+}
+
+.wired-outline-1865-shooting-stars-1 {
+
+  left: 653px;
+  top: 2545px;
+}
+
+.steady-monthly-fee {
+  color: #000000;
+  text-align: center;
+  font: 500 22px/140% "Jost", sans-serif;
+}
+
+.feel-free-to-include-any-number-of-design-requests-on-your-board {
+  color: #000000;
+  text-align: center;
+  font: 200 22px/140% "Jost", sans-serif;
+}
+
+.receive-your-design-individually-typically-within-just-3-to-5-days {
+  color: #000000;
+  text-align: center;
+  font: 200 22px/140% "Jost", sans-serif;
+}
+
+.experience-a-consistent-unchanging-monthly-fee {
+  color: #000000;
+  text-align: center;
+  font: 200 22px/140% "Jost", sans-serif;
+}
+
+.unparalleled-design-quality-available-whenever-you-require-it {
+  color: #000000;
+  text-align: center;
+  font: 200 22px/140% "Jost", sans-serif;
+}
+
+.every-design-is-uniquely-crafted-for-you-belongs-entirely-to-you {
+  color: #000000;
+  text-align: center;
+  font: 200 22px/140% "Jost", sans-serif;
+}
+
+.adjust-your-scale-to-your-needs-pause-or-cancel-anytime {
+  color: #000000;
+  text-align: center;
+  font: 200 22px/140% "Jost", sans-serif;
+}
+
+.premium-quality {
+  color: #000000;
+  text-align: center;
+  font: 500 22px/140% "Jost", sans-serif;
+}
+
+.uniquely-crafted-for-you {
+  color: #000000;
+  text-align: center;
+  font: 500 22px/140% "Jost", sans-serif;
+}
+
+.versatile-designed-to-scale {
+  color: #000000;
+  text-align: center;
+  font: 500 22px/140% "Jost", sans-serif;
+}
+
+.unlimited-request {
+  color: #000000;
+  text-align: center;
+  font: 500 22px/140% "Jost", sans-serif;
+}
+
+.express-delivery {
+  color: #000000;
+  text-align: center;
+  font: 500 22px/140% "Jost", sans-serif;
+}
+
+.nav {
+  flex-direction: row;
+  height: 4em;
+  background: #21231d;
+  border-radius: 25px;
+  gap: 1rem;
+  padding-left: 2rem;
+  position: fixed;
+  bottom: 25px;
+  z-index: 100;
+  justify-content: space-between;
+  width: 50em;
+}
+
+.nav>* {
+  display: flex;
+}
+
+.arrows {
+  border-radius: 24px;
+  overflow: visible;
+}
+
+.benefits2 {
+  color: #a0e1e1;
+  text-align: left;
+  font: 500 18px/50px "Jost", sans-serif;
+  left: calc(50% - 267px);
+  top: 728px;
+}
+
+.work {
+  color: #a0e1e1;
+  text-align: left;
+  font: 500 18px/50px "Jost", sans-serif;
+  left: calc(50% - 141px);
+  top: 728px;
+}
+
+.package {
+  color: #a0e1e1;
+  text-align: left;
+  font: 500 18px/50px "Jost", sans-serif;
+  left: calc(50% - 36px);
+  top: 728px;
+}
+
+.pricing4 {
+  color: #a0e1e1;
+  text-align: left;
+  font: 500 18px/50px "Jost", sans-serif;
+  left: calc(50% - -93px);
+  top: 728px;
+}
+
+.fa-qs3 {
+  color: #a0e1e1;
+  text-align: left;
+  font: 500 18px/50px "Jost", sans-serif;
+  left: calc(50% - -219px);
+  top: 728px;
+}
+
+.login-button {
+  background: #a0e1e1;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #21231d;
+  border-width: 1px;
+
+  left: 1021px;
+  top: 718px;
+}
+
+.login {
+  color: #21231d;
+  text-align: left;
+  font: 500 18px/50px "Jost", sans-serif;
+  padding: 0 1.5em;
+  place-content: center;
+  display: grid;
+  height: 100%;
+}
+
+.hero-stack {
+  background: #ffffff;
+  padding: 64px 24px 64px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: center;
+  justify-content: flex-start;
+  position: sticky;
+  left: 12886px;
+  top: -260px;
+  overflow: hidden;
+}
+
+.small-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.title-copy-goes-here {
+  color: #000000;
+  text-align: center;
+  font: 700 56px/120% "Inter", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-suspendisse-varius-enim-in-eros-elementum-tristique {
+  color: #212121;
+  text-align: center;
+  font: 200 18px/150% "Inter", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+
+.actions {
+  padding: 16px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.button4 {
+  background: #000000;
+  padding: 12px 24px 12px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.get-started3 {
+  color: #ffffff;
+  text-align: left;
+  font: 500 12px/140% "Inter", sans-serif;
+  position: relative;
+}
+
+.image-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.image51 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+
+  position: relative;
+}
+
+/* accordion */
+
+.accordion {
+  margin: 0;
+  padding: 0;
+  width: 75vw
+}
+
+.accordion .answer {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.accordion h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.accordion-trigger {
+  background: none;
+  color: white;
+  display: block;
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
+  padding: 1em 1.5em;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
+
+.accordion-trigger:focus {
+  outline: 4px solid transparent;
+}
+
+.accordion>*:first-child .accordion-trigger,
+.accordion>*:first-child {
+  border-radius: 5px 5px 0 0;
+}
+
+.accordion>*:last-child .accordion-trigger,
+.accordion>*:last-child {
+  border-radius: 0 0 5px 5px;
+}
+
+button {
+  border-style: none;
+  margin: 1rem 0;
+  padding: 0.8em 1.6em;
+  border-radius: 25px;
+}
+
+button a {
+  padding: 1em;
+  font-size: 1.3rem;
+}
+
+.accordion button::-moz-focus-inner {
+  border: 0;
+}
+
+.accordion-title {
+  display: block;
+  pointer-events: none;
+  border: transparent 2px solid;
+  border-radius: 5px;
+  padding: 0.25em;
+  outline: none;
+}
+
+.accordion-icon {
+  color: #fff;
+  border: solid currentcolor;
+  border-width: 0 2px 2px 0;
+  height: 0.5rem;
+  pointer-events: none;
+  position: absolute;
+  right: 2em;
+  top: 50%;
+  transform: translateY(-60%) rotate(45deg);
+  width: 0.5rem;
+}
+
+.accordion-trigger[aria-expanded="true"] .accordion-icon {
+  transform: translateY(-50%) rotate(-135deg);
+}
+
+.accordion-panel {
+  margin: 0;
+  padding: 1em 1.5em;
+  color: white;
+}
+
+/* For Edge bug https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/4806035/ */
+.accordion-panel[hidden] {
+  display: none;
+}
+
+.accordion hr {
+
+  border-top: #A0E1E1 solid 5px;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 3rem;
+  padding-bottom: 0;
+}
+
+header button {
+  display: none;
+}
+
+.hidden {
+  display: none !important;
+}
+
+
+.our-package-includes::after {
+  content: ' includes';
+}
+
+@media (max-width: 40em) {
+  .black-transparent-logo-1 {
+    height: 30px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    background-color: #a0e1e1;
+    z-index: 100;
+    padding-bottom: 1rem;
+  }
+
+  .header-title {
+    display: flex;
+
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    flex-direction: row !important;
+  }
+
+  header button {
+    display: unset;
+    margin: 0;
+    padding: 0;
+  }
+
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: #21231D;
+    width: 100vw;
+    gap: 1em;
+    padding: 1rem 0;
+  }
+
+  #navbar a {
+    text-align: center;
+  }
+
+  .login {
+    background-color: unset;
+    color: #a0e1e1;
+    border-top: 1px solid #a0e1e1;
+    border-radius: unset;
+    padding-top: 1rem;
+  }
+
+  #top-slider-track {
+    transform: unset;
+
+  }
+
+  .frame {
+    padding: 6rem 1.4rem;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .a-design-studio {
+    font-size: 2.5rem;
+    line-height: 1.4em;
+    width: 90vw;
+    position: relative;
+  }
+
+  .underline-02 {
+    top: 2.75rem;
+    left: -1.5rem;
+    overflow: unset;
+  }
+
+  .underline-02 svg {
+    width: 6em
+  }
+
+  .star {
+    position: absolute;
+    top: unset
+  }
+
+  .group11 {
+    width: 8rem
+  }
+
+  .underline-09 {
+    position: relative;
+    top: -0.5rem;
+  }
+
+  #benefits-grid {
+    padding: 7rem 0.75rem 0rem 0.75rem;
+  }
+
+  .maximize-your-business-through-on-demand-flexibility-in-design {
+    line-height: 1.2em;
+    font-size: 1.4rem;
+  }
+
+  .design-doesn-t-need-to-be-challenging-we-simplify-it-for-you,
+  .pay-a-monthly-fee-and-ask-for-as-many-designs-as-you-want-no-limits {
+    font-size: 2rem;
+  }
+
+  .pay-a-monthly-fee-and-ask-for-as-many-designs-as-you-want-no-limits {
+    padding: unset;
+    font-size: 2em;
+  }
+
+  .underline-text svg {
+    top: unset
+  }
+
+  .round-star {
+    right: unset;
+    left: -5em;
+    top: 25em;
+  }
+
+  #paperplane {
+    right: 2rem;
+    width: 5rem;
+  }
+
+  .we-do-things-differently-unlike-traditional-freelance-design-we-offer-a-subscription-service-to-substitutes-undependable-freelancers-and-costly-agencies,
+  .tailored-pricing-for-businesses-of-every-scale-clear-transparency-on-your-costs,
+  #package p {
+    font-size: 1.5em;
+    max-width: 65rem;
+  }
+
+  .intro-grid,
+  .works-grid,
+  .our-package-includes2 {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding: 2rem;
+  }
+
+  #deco-star {
+    width: 5rem;
+    top: -6rem;
+  }
+
+  .our-package-includes::after {
+    content: '';
+  }
+
+  .works-grid img {
+    height: unset;
+    width: 100vw;
+  }
+
+  #pricing h2,
+  #package h2,
+  .what-s-the-process span {
+    font-size: 2em;
+    width: 9em;
+    position: relative;
+  }
+
+  .pricing-frame {
+    position: absolute;
+    top: -0.5em;
+    left: unset;
+    right: -1em;
+  }
+
+  .cost-table {
+    display: flex;
+    flex-direction: column;
+    gap: 0
+  }
+
+  .design-column,
+  .design-webflow-list {
+    border-radius: 0 0 25px 25px;
+    margin-bottom: 1em;
+  }
+
+  .design-webflow {
+    border-radius: 25px 25px 0 0;
+    padding-bottom: 1rem;
+
+  }
+
+  #package {
+    padding: 0 1rem;
+    padding-top: 6rem
+  }
+
+  #pricing {
+    padding-top: 2rem;
+  }
+
+  .design {
+    padding-bottom: 1rem;
+  }
+
+  .cost-table .common {
+    background-color: unset;
+    padding: unset;
+    gap: 2em;
+  }
+
+  .cost-table .common>*,
+  .cost-table .common img {
+    align-self: center;
+    text-align: center;
+  }
+
+  .cost-table p,
+  .cost-table h3 {
+    text-align: center;
+
+  }
+
+  .todos {
+    padding: unset
+  }
+
+  .group-29 {
+    width: 100%;
+  }
+
+  .our-package-includes2 {
+    gap: 2rem;
+    padding: 0 1em;
+    padding-bottom: 3em;
+  }
+
+
+  .what-s-the-process {
+    position: relative;
+  }
+
+
+  .what-s-the-process svg {
+    position: absolute;
+  }
+
+  .next {
+    width: 1.5em;
+    left: -1em;
+  }
+
+  .frame2 {
+    top: -0.75em;
+    right: -0.75em;
+    width: 0.75em;
+  }
+
+  #explan {
+    flex-direction: column;
+    padding: 6rem 2rem;
+  }
+
+  .group-39492-1 {
+    width: 90vw
+  }
+
+  .communicate-channels h3 {
+    font-size: 1.5em;
+  }
+
+  #faq {
+    padding: 3rem 0;
+  }
+
+  .faqs-title {
+    padding: 0 1em;
+    width: 100%;
+  }
+
+  .accordion {
+    width: 100%;
+    padding: 0 1em;
+  }
+
+  .accordion-trigger {
+    padding: 0;
+  }
+
+  .accordion-title-text {
+    margin-right: 1em;
+  }
+
+  #action {
+    padding: 3rem 0;
+  }
+
+  #action h1 {
+    font-size: 3em;
+    line-height: 1.5em;
+  }
+
+  .footer-desktop {
+    display: none;
+  }
+
+  .footer-mobile {
+    display: flex;
+    justify-content: space-between;
+    width: 86vw;
+    padding-bottom: 3em;
+  }
+
+  .footer-mobile .links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5em;
+    font-size: 1.2em;
+
+  }
+
+}
