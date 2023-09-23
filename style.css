@@ -59,14 +59,14 @@ h2 {
 }
 
 .frame {
-  padding: 6rem;
+  padding: 5rem;
   gap: 1rem;
   width: 100%
 }
 
 #top {
   padding-top: 3rem;
-  padding-bottom: 5rem;
+  padding-bottom: 6rem;
 }
 
 .black-transparent-logo-1 {
@@ -93,7 +93,7 @@ h2 {
   margin-bottom: 3rem;
 }
 
-button#see-pricing {
+#see-pricing {
   margin-bottom: 1rem;
 }
 
@@ -438,11 +438,6 @@ span {
   top: 6459px;
 }
 
-.button3 {
-
-  position: static;
-}
-
 .contact-us {
   background: #21231d;
   padding: 0.7em 2em;
@@ -470,7 +465,7 @@ span {
 }
 
 #pricing {
-  padding: 0rem 2rem 6rem 2rem;
+  padding: 2rem 2rem 6rem 2rem;
   width: 100%;
   position: relative;
   gap: 2rem;
@@ -1111,7 +1106,7 @@ span {
 }
 
 #process {
-  padding: 0;
+  padding: 1rem 0;
   background: #21231d;
   padding-bottom: 4rem;
 }
@@ -1127,7 +1122,7 @@ span {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  padding: 3rem 10vw;
+  padding: 3rem 0;
   margin: 0 auto;
 }
 
@@ -1447,7 +1442,7 @@ span {
 }
 
 #benefits {
-  padding: 4rem 0 2rem 0;
+  padding: 4rem 0;
   background: #21231d;
 }
 
@@ -1799,10 +1794,11 @@ span {
   border-radius: 0 0 5px 5px;
 }
 
-button {
+button,
+.button-shape {
   border-style: none;
   margin: 1rem 0;
-  padding: 0.8em 1.6em;
+  padding: 0.8rem 1.6rem;
   border-radius: 25px;
 }
 
@@ -2132,6 +2128,11 @@ header button {
 
   .what-s-the-process svg {
     position: absolute;
+  }
+
+  .progress-model {
+    padding: 3rem;
+    padding-bottom: 1rem;
   }
 
   .next {
