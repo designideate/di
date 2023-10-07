@@ -6,9 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
         autoWidth: true,
         perPage: 4,
         arrows: false,
-        pagination: false,
-        height: '20rem'
-    });
+        pagination: false    });
     splide.mount();
     // init accordions
     append_json();
@@ -80,15 +78,15 @@ class Accordion {
 const faqData = [
     {
         q: "Is it truly unlimited design?",
-        a: "Absolutely! You can submit an unlimited number of requests to your design queue at any time, and your designer will work through them one by one."
+        a: "Definitely! You can send unlimited requests to your design queue anytime, and your designer will address them one by one."
     },
     {
-        q: "How quickly will I receive my designs?",
-        a: "When you request a design, it's placed in your design queue, which we handle on a first-come, first-served basis.<br/>On average, most clients receive their requests within a few business days. Occasionally, it might take longer based on the request's complexity."
+        q: "How quickly will I receive my designs/illustration?",
+        a: "Once you make a design request, it enters your design queue and is managed in the order it was received in a first-come, first-served approach.<br/>On average, most clients receive their requests within a few business days. Occasionally, it might take longer based on the request's complexity."
     },
     {
         q: "Can I resell any of the work created by Design Ideate?",
-        a: "You own 100% rights to the designs, giving you the freedom to use them as you see fit."
+        a: "You possess full rights to the designs, granting you the flexibility to utilize them according to your preferences."
     },
     {
         q: "I have an urgent request. What should I do?",
@@ -96,15 +94,15 @@ const faqData = [
     },
     {
         q: "How many requests can I submit at once?",
-        a: "You can submit an unlimited number of requests to your design queue at any time, and your designer will address them sequentially."
+        a: "Feel free to add any amount of requests to your design queue whenever you like, and we will handle them one at a time."
     },
     {
         q: "How many brands can I request designs for?",
-        a: "Design+Webflow plan members can submit requests for an unlimited number of brands, while Design plan members are limited to one brand."
+        a: "Design+Illustration plan members can submit requests for an unlimited number of brands, while Design plan members are limited to one brand."
     },
     {
         q: "What types of designs can Design Ideate create?",
-        a: "Our skilled designers can create anything from an Android app to a brand logo. Check out our package for some ideas."
+        a: "Our skilled designers/illustrators can create anything from an Android app to a character creation. Check out our package for some ideas."
     },
     {
         q: "What types of designs does Design Ideate not handle?",
@@ -112,7 +110,7 @@ const faqData = [
     },
     {
         q: "Is cancelling a complicated process?",
-        a: "Absolutely not. There's no need to mail us, send an email, or go through hoops. You can cancel your account independently at any time."
+        a: "Absolutely not. You can cancel your account at any time without the need to mail us, send emails, or navigate complex processes."
     }
 ]
 
