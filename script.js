@@ -18,12 +18,13 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("scroll", function (event) {
-  document
-    .getElementById("top-slider")
-    .setAttribute(
-      "style",
-      `transform: translateX(${125 - window.scrollY / 5}px);width: unset`
-    );
+  if (window.innerWidth > 820)
+    document
+      .getElementById("top-slider")
+      .setAttribute(
+        "style",
+        `transform: translateX(${125 - window.scrollY / 5}px);width: unset`
+      );
 });
 
 /*

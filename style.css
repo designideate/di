@@ -154,7 +154,7 @@ span {
 .fair-simple-pricing-for-all {
   color: #000000;
   text-align: center;
-  font: 500 40px/140% "Jost", sans-serif;
+  font: 600 40px/140% "Jost", sans-serif;
 }
 
 .tailored-pricing-for-businesses-of-every-scale-clear-transparency-on-your-costs {
@@ -181,13 +181,22 @@ span {
   margin-bottom: 3rem
 }
 
-.cost-table .button-shape {
+.cost-table .button-shape,
+.illustration-only .button-shape {
   margin: 2rem 0 3rem
 }
 
-.cost-table .common .button-shape {
-  margin-top: 0;
-  margin-bottom: 3rem
+.illustration-only .button-shape {
+  display: flex;
+  background-color: #21231d;
+  color: #a0e1e1;
+  justify-content: center;
+  margin: 0 !important;
+  margin-top: 1rem !important;
+}
+
+.illustration-only .get-started {
+  color: #a0e1e1;
 }
 
 .cost-table-border {
@@ -509,8 +518,6 @@ span {
   color: #000000;
   text-align: center;
   font: 200 28px/140% "Jost", sans-serif;
-  left: calc(50% - 375px);
-  top: 3184px;
 }
 
 #work {
@@ -520,9 +527,7 @@ span {
 .recent-work2 {
   color: #000000;
   text-align: center;
-  font: 500 40px/140% "Jost", sans-serif;
-  left: calc(50% - 124px);
-  top: 3098px;
+  font: 600 40px/140% "Jost", sans-serif;
 }
 
 .works-grid {
@@ -558,7 +563,7 @@ span {
 .we-engage-in-the-creation-of-various-designs {
   color: #000000;
   text-align: center;
-  font: 500 40px/140% "Jost", sans-serif;
+  font: 600 40px/140% "Jost", sans-serif;
   padding-bottom: 1rem;
 }
 
@@ -1147,7 +1152,7 @@ span {
 .design-doesn-t-need-to-be-challenging-we-simplify-it-for-you {
   color: #a0e1e1;
   text-align: center;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 140%;
   font-size: 40px;
 }
@@ -1184,7 +1189,7 @@ span {
 .pay-a-monthly-fee-and-ask-for-as-many-designs-as-you-want-no-limits {
   color: #21231d;
   text-align: center;
-  font: 500 40px/140% "Jost", sans-serif;
+  font: 600 40px/140% "Jost", sans-serif;
   display: inline-block;
   max-width: 55rem;
 }
@@ -1481,6 +1486,7 @@ button,
 
 .button-shape.xlarge {
   padding: 0.8rem 5rem;
+  white-space: nowrap;
 }
 
 .button-shape.contact-us {
@@ -1579,10 +1585,6 @@ header button {
     height: 5rem;
   }
 
-  .button-shape.xlarge {
-    padding: 0.8rem 4rem;
-  }
-
   header {
     display: flex;
     justify-content: space-between;
@@ -1593,6 +1595,10 @@ header button {
     z-index: 100;
     padding-bottom: 0rem;
     padding-top: 0rem;
+  }
+
+  #top {
+    padding-top: 4rem;
   }
 
   .header-title {
@@ -1632,7 +1638,11 @@ header button {
   }
 
   .frame {
-    padding: 6rem 1.4rem;
+    padding: 5rem 1.4rem;
+  }
+
+  .todos hr {
+    padding: 1rem;
   }
 
   .nav {
@@ -1647,8 +1657,19 @@ header button {
     padding-top: var(--section-gap)
   }
 
+  #top-slider {
+    overflow: scroll;
+    width: 100vw;
+    transform: translateX(0rem);
+  }
+
+  #top-slider div {
+    padding: 0 !important
+  }
+
+
   #top-slider img {
-    height: 9rem;
+    height: 15rem;
   }
 
   .underline-02 {
@@ -1676,21 +1697,33 @@ header button {
   }
 
   #benefits-grid {
-    padding: 7rem 0.75rem 0rem 0.75rem;
+    padding: 7rem 0.75rem 1rem 0.75rem;
+  }
+
+  .designs-that-consistently-maintain-high-quality-and-fast-delivery {
+    font-size: 1.5rem;
   }
 
   .maximize-your-business-through-on-demand-flexibility-in-design {
+    max-width: 13em;
     line-height: 1.2em;
     font-size: 1.4rem;
   }
 
-  .design-doesn-t-need-to-be-challenging-we-simplify-it-for-you,
-  .pay-a-monthly-fee-and-ask-for-as-many-designs-as-you-want-no-limits {
+  .design-doesn-t-need-to-be-challenging-we-simplify-it-for-you {
     font-size: 2rem;
   }
 
-  .pay-a-monthly-fee-and-ask-for-as-many-designs-as-you-want-no-limits {
+  .pay-a-monthly-fee-and-ask-for-as-many-designs-as-you-want-no-limits,
+  .we-engage-in-the-creation-of-various-designs,
+  .our-package-includes {
     padding: unset;
+    font-size: 2em;
+  }
+
+  .our-package-includes {
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
     font-size: 2em;
   }
 
@@ -1702,6 +1735,10 @@ header button {
     right: unset;
     left: -5em;
     top: 25em;
+  }
+
+  .round-star svg {
+    height: 8rem;
   }
 
   #paperplane {
@@ -1722,7 +1759,11 @@ header button {
     display: flex;
     flex-direction: column;
     gap: 3em;
-    padding: 2rem;
+    padding: 2rem 0.9rem;
+  }
+
+  .works-grid {
+    gap: 1rem;
   }
 
   #deco-star {
@@ -1735,7 +1776,7 @@ header button {
   }
 
   .works-grid>div {
-    height: 100vw;
+    height: 23rem;
     object-fit: cover;
   }
 
@@ -1756,6 +1797,11 @@ header button {
     right: -2em;
   }
 
+  .fair-simple-pricing-for-all {
+    font-size: 2em;
+    padding: 0 1rem;
+  }
+
   .payment-methods img,
   .book-a-call img {
     left: 0;
@@ -1763,9 +1809,15 @@ header button {
 
   .pricing-frame {
     position: absolute;
-    top: -0.5em;
+    top: 3em;
     left: unset;
-    right: -1em;
+    right: 1em;
+    height: 1rem;
+  }
+
+
+  .badge#popular {
+    top: 1em;
   }
 
   .cost-table {
@@ -1792,7 +1844,8 @@ header button {
   }
 
   #pricing {
-    padding-top: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
   }
 
   .design {
@@ -1811,6 +1864,22 @@ header button {
     align-self: center;
     text-align: center;
   }
+
+
+  .illustration-only {
+    padding: 2rem !important;
+    padding-bottom: 0;
+  }
+
+  .illustration-only .desc {
+    text-align: center;
+  }
+
+  .cost-table .common>* {
+    padding: 0 2rem;
+
+  }
+
 
   .cost-table p,
   .cost-table h3 {
@@ -1858,6 +1927,10 @@ header button {
     width: 0.75em;
   }
 
+  #process {
+    padding: 1rem 0;
+  }
+
   #explan {
     flex-direction: column;
     padding: 6rem 2rem;
@@ -1868,8 +1941,18 @@ header button {
     max-width: unset;
   }
 
-  .communicate-channels h3 {
+  .communicate-channels h3,
+  .accordion-title-text {
     font-size: 1.5em;
+    font-weight: 600;
+  }
+
+  .drive {
+    width: 1.2em;
+  }
+
+  .vector48 {
+    width: 1em;
   }
 
   #faq {
@@ -1881,6 +1964,10 @@ header button {
     width: 100%;
   }
 
+  .shapes {
+    width: 4rem
+  }
+
   .accordion {
     width: 100%;
     padding: 0 1em;
@@ -1888,6 +1975,10 @@ header button {
 
   .accordion-trigger {
     padding: 0;
+  }
+
+  .accordion-icon {
+    right: 1em;
   }
 
   .accordion-title-text {
