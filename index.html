@@ -75,14 +75,24 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
       <a href="#pricing" class="gray-button button-shape" id="see-pricing">
         <div class="see-pricing button">See Pricing</div>
       </a>
-      <section id="top-slider" class="splide" aria-label="Splide Basic HTML Example">
+      <section id="top-slider" class="splide">
         <div class="splide__track">
           <ul class="splide__list" id="top-slider">
-            <li class="splide__slide"><img src="assets/1.svg" /></li>
-            <li class="splide__slide"><img src="assets/2.svg" /></li>
-            <li class="splide__slide"><img src="assets/3.svg" /></li>
-            <li class="splide__slide"><img src="assets/4.svg" /></li>
-            <li class="splide__slide"><img src="assets/5.svg" /> </li>
+            <li class="splide__slide">
+              <img data-splide-lazy="assets/1.png" />
+            </li>
+            <li class="splide__slide">
+              <img data-splide-lazy="assets/2.png" />
+            </li>
+            <li class="splide__slide">
+              <img data-splide-lazy="assets/3.png" />
+            </li>
+            <li class="splide__slide">
+              <img data-splide-lazy="assets/4.svg" />
+            </li>
+            <li class="splide__slide">
+              <img data-splide-lazy="assets/5.svg" />
+            </li>
           </ul>
         </div>
       </section>
@@ -255,10 +265,10 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         maintain
         high quality and fast delivery. </div>
       <div class="works-grid">
-        <div><img src="assets/mockup1.svg" /></div>
-        <div><img src="assets/mockup4.svg" /></div>
-        <div><img src="assets/mockup3.svg" /></div>
-        <div><img src="assets/mockup2.svg" /></div>
+        <div><img loading="lazy" src="assets/mockup1.svg" /></div>
+        <div><img loading="lazy" src="assets/mockup4.svg" /></div>
+        <div><img loading="lazy" src="assets/mockup3.svg" /></div>
+        <div><img loading="lazy" src="assets/mockup2.svg" /></div>
       </div>
     </div>
     <div class="deco">
@@ -707,8 +717,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
               <div class="get-started">Get Started</div>
             </a>
             <div class="price">
-              <div class="full">$3500</div>
-              <div class="sale">$2800/month</div>
+              <div class="full">$4000</div>
+              <div class="sale">$3200/month</div>
             </div>
             <div class="save-20-for-limited-offer"> Save 20% for limited offer! </div>
           </div>
@@ -766,8 +776,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
               <div class="get-started">Get Started</div>
             </a>
             <div class="price">
-              <div class="full">$4000</div>
-              <div class="sale">$3200/month</div>
+              <div class="full">$4800</div>
+              <div class="sale">$3840/month</div>
             </div>
             <div class="save-20-for-limited-offer"> Save 20% for limited offer! </div>
           </div>
@@ -812,8 +822,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                 Ideate
                 operates and how it can be beneficial for you. </p>
             </div>
-            <a href="https://calendly.com/designideate/30min">
-              <div class="button-shape contact-us">
+            <a href="https://calendly.com/designideate/30min" class="button-shape gray-button contact-us-button">
+              <div class="contact-us">
                 Contact Us
               </div>
             </a>
@@ -1031,27 +1041,28 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     </div>
     <div id="action" class="frame">
       <h1 class="let-s-get-started">Maximize your business now!</h1>
-      <div class="button-shape large gray-button" id="sign-up-button">
+      <a href="https://billing.stripe.com/p/login/aEUdTB7yd4hu4ms8ww" class="button-shape large gray-button"
+        id="sign-up-button">
         <div class="sign-up">Sign Up</div>
-      </div>
+      </a>
     </div>
     <hr />
     <footer>
       <div class="footer-desktop">
-        <a href="#">Get Started</a>
+        <a href="#pricing">Get Started</a>
         <a href="#pricing">Contact Us</a>
         <img class="black-transparent-logo-1" src="assets/logo.svg" />
-        <a href="#">Terms of Service</a>
-        <a href="#">Privacy Policy</a>
+        <a href="tos.html">Terms of Service</a>
+        <a href="privacy.html">Privacy Policy</a>
       </div>
       <div class="footer-mobile">
         <div>
           <img class="black-transparent-logo-1" src="assets/logo.svg" />
         </div>
         <div class="links">
-          <a href="#">Contact Us</a>
-          <a href="#">Get Started</a>
-          <a href="#">Privacy Policy</a> <a href="#">Terms of Service</a>
+          <a href="#pricing">Contact Us</a>
+          <a href="#pricing">Get Started</a>
+          <a href="privacy.html">Privacy Policy</a> <a href="tos.html">Terms of Service</a>
 
         </div>
       </div>

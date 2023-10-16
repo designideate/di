@@ -2,7 +2,8 @@ html {
   scroll-behavior: smooth;
   --section-gap: 6.5rem;
   --theme-color: #a0e1e1;
-  --theme-gray: #21231d
+  --theme-gray: #21231d;
+  background-color: var(--theme-color);
 }
 
 a,
@@ -382,7 +383,6 @@ span {
 }
 
 .contact-us {
-  background: var(--theme-gray);
   padding: 0.7em 2em;
 }
 
@@ -1075,8 +1075,8 @@ button,
   white-space: nowrap;
 }
 
-.button-shape.contact-us {
-  padding: 0.75rem 3.5rem;
+.button-shape .contact-us {
+  padding: 0.75rem 0.5rem;
   color: var(--theme-color);
   text-align: left;
   font: 500 1.3rem/50px "Jost", sans-serif;
@@ -1242,7 +1242,6 @@ header button {
   }
 
   #top-slider {
-    overflow: scroll;
     width: 100vw;
     transform: translateX(0rem);
   }
@@ -1444,14 +1443,24 @@ header button {
 
   .cost-table .common>*,
   .cost-table .common img {
+    display: flex;
+    flex-direction: column;
     align-self: center;
     text-align: center;
   }
 
+  #payment-methods p,
+  #book-a-call p {
+    text-align: unset;
+  }
+
 
   .illustration-only {
+    display: flex;
+    flex-direction: column;
     padding: 2rem !important;
     padding-bottom: 0;
+    align-items: center;
   }
 
   .illustration-only .desc {

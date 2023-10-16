@@ -7,6 +7,9 @@ document.addEventListener("DOMContentLoaded", function () {
     perPage: 4,
     arrows: false,
     pagination: false,
+    lazyLoad: 'sequential',
+    type: 'loop',
+    drag: 'free'
   });
   splide.mount();
   // init accordions
@@ -125,9 +128,8 @@ function append_json(data = faqData) {
   var table = document.getElementById("accordionGroup");
   data.forEach((item, index) => {
     var h3 = document.createElement("h3");
-    h3.innerHTML = `<button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect${
-      index + 2
-    }"
+    h3.innerHTML = `<button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect${index + 2
+      }"
               id="accordion${index + 2}id">
               <span class="accordion-title">
                 <div class="accordion-title-text">${item.q}</div>
