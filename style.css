@@ -1,6 +1,9 @@
 html {
   scroll-behavior: smooth;
   --section-gap: 6.5rem;
+  --theme-color: #a0e1e1;
+  --theme-gray: #21231d;
+  background-color: var(--theme-color);
 }
 
 a,
@@ -46,7 +49,7 @@ h2 {
 }
 
 .container {
-  background: #a0e1e1;
+  background: var(--theme-color);
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -60,7 +63,6 @@ h2 {
   display: flex;
   align-items: center;
   flex-direction: column;
-
 }
 
 .frame {
@@ -77,24 +79,21 @@ h2 {
   height: 7rem;
 }
 
-.a-design-studio {
-  color: #000000;
+#top h1 {
   text-align: center;
   font: 700 85px/100px "Jost", sans-serif;
   padding: 4rem 0;
 }
 
 .maximize-your-business-through-on-demand-flexibility-in-design {
-  color: #000000;
   font-weight: 100;
   text-align: center;
   font-size: 28px;
   line-height: 50px;
 }
 
-.rectangle-1 {
-  background: #21231d;
-  margin-bottom: 3rem;
+.gray-button {
+  background: var(--theme-gray);
 }
 
 #see-pricing {
@@ -102,10 +101,10 @@ h2 {
 }
 
 .see-pricing {
-  color: #a0e1e1;
+  color: var(--theme-color);
   text-align: left;
   font: 500 22px/50px "Jost", sans-serif;
-  padding: 1rem;
+  padding: 0 1rem;
   line-height: 3.8rem;
   font-size: 1.3rem;
 }
@@ -141,33 +140,24 @@ span {
   height: 23rem;
 }
 
-.group {
-  left: 0px;
-  top: 88px;
-  overflow: visible;
-}
-
 .pricing {
   inset: 0;
 }
 
-.fair-simple-pricing-for-all {
-  color: #000000;
+.s-heading {
   text-align: center;
-  font: 500 40px/140% "Jost", sans-serif;
+  font: 600 40px/140% "Jost", sans-serif;
+  position: relative;
 }
 
-.tailored-pricing-for-businesses-of-every-scale-clear-transparency-on-your-costs {
-  color: #000000;
+.frame .subheading {
   text-align: center;
   font: 200 28px/140% "Jost", sans-serif;
-  left: calc(50% - 471px);
-  top: 6013px;
 }
 
 .cost-table {
   border-radius: 25px;
-  border: #a0e1e1 solid 5px;
+  border: var(--theme-color) solid 5px;
   display: grid;
   grid-auto-flow: column;
   gap: 2px;
@@ -181,18 +171,27 @@ span {
   margin-bottom: 3rem
 }
 
-.cost-table .button-shape {
+.cost-table .button-shape,
+.illustration-only .button-shape {
   margin: 2rem 0 3rem
 }
 
-.cost-table .common .button-shape {
-  margin-top: 0;
-  margin-bottom: 3rem
+.illustration-only .button-shape {
+  display: flex;
+  background-color: var(--theme-gray);
+  color: var(--theme-color);
+  justify-content: center;
+  margin: 0 !important;
+  margin-top: 1rem !important;
+}
+
+.illustration-only .get-started {
+  color: var(--theme-color);
 }
 
 .cost-table-border {
   margin-top: 2rem;
-  background-color: #a0e1e1;
+  background-color: var(--theme-color);
 }
 
 .price {
@@ -224,19 +223,17 @@ span {
   padding-right: 0;
 }
 
-.payment-methods img {
+#payment-methods img {
   position: relative;
   left: -2rem;
 
 }
 
-.cost-table .common>* {}
-
 .illustration-only .pricing {
   padding-top: 1rem;
 }
 
-.book-a-call img {
+#book-a-call img {
   position: relative;
   left: -1.5rem;
 }
@@ -258,36 +255,16 @@ span {
   top: -1em;
 }
 
-.discover-how-design-ideate-operates-and-how-it-can-be-beneficial-for-you {
-  color: #000000;
+#payment-methods p,
+#book-a-call p,
+.cost-table .desc,
+.communicate-channels p {
   text-align: left;
   font: 200 22px/140% "Jost", sans-serif;
-  left: 928px;
-  top: 6833px;
 }
 
-.contact-our-sales-team-to-inquire-about-our-discounted-annual-pricing {
-  color: #000000;
-  text-align: left;
-  font: 200 22px/140% "Jost", sans-serif;
-  left: 928px;
-  top: 6582px;
-}
-
-.design-ideate-uses-stripe-for-secured-payment-on-usd-currency {
-  color: #000000;
-  text-align: left;
-  font: 200 22px/140% "Jost", sans-serif;
-  left: 928px;
-  top: 6336px;
-}
-
-.design-column {
-  padding-left: 3rem;
-}
-
-.what-s-included {
-  color: #000000;
+.what-s-included,
+.intro-grid .grid-item {
   text-align: center;
   font: 500 22px/140% "Jost", sans-serif;
 }
@@ -302,20 +279,10 @@ span {
   max-width: 15rem;
 }
 
-.design {
-  color: #000000;
-  text-align: center;
-  font: 500 28px/140% "Jost", sans-serif;
-  position: relative;
-}
-
-._2940 {
-  color: #000000;
+.price .full {
   text-align: center;
   font: 500 26px/140% "Jost", sans-serif;
   text-decoration: line-through;
-  left: 140px;
-  top: 6461px;
 }
 
 .badge#popular {
@@ -331,8 +298,8 @@ span {
   top: 19px;
 }
 
-.sdaff {
-  color: var(--dashboard-darkprimary, #1f2128);
+.badge p {
+  color: #1f2128;
   text-align: left;
   font: 200 13px/20px "Poppins", sans-serif;
   position: relative;
@@ -383,39 +350,14 @@ span {
   place-content: center;
 }
 
-.ellipse-18 {
-  background: var(--primary-color, #a0e1e1);
-  border-radius: 50%;
-
-  left: 0px;
-  top: 0px;
-}
-
-.rectangle-12 {
-  background: #a0e1e1;
-  margin: 2rem 0;
+.theme-color-button {
+  background: var(--theme-color);
 }
 
 .get-started {
-  color: #21231d;
+  color: var(--theme-gray);
   text-align: center;
   font: 500 22px/50px "Jost", sans-serif;
-}
-
-._2450-month {
-  color: #000000;
-  text-align: center;
-  font: 500 28px/140% "Jost", sans-serif;
-  left: 230px;
-  top: 6459px;
-}
-
-.what-s-included2 {
-  color: #000000;
-  text-align: center;
-  font: 500 22px/140% "Jost", sans-serif;
-  left: 529px;
-  top: 6615px;
 }
 
 .cost-table ul {
@@ -423,7 +365,6 @@ span {
 }
 
 .cost-table li {
-  color: #000000;
   font: 100 22px/140% "Jost", sans-serif;
   line-height: 1.75;
 }
@@ -432,64 +373,24 @@ span {
   max-width: 16rem;
 }
 
-.cost-table .desc {
-  color: #000000;
-  text-align: left;
-  font: 200 22px/140% "Jost", sans-serif;
-}
-
-.design-webflow {
-  color: #000000;
+#book-a-call,
+#payment-methods,
+.design,
+.sale {
   text-align: center;
   font: 500 28px/140% "Jost", sans-serif;
-  left: 537px;
-  top: 6198px;
-}
-
-.book-a-call {
-  color: #000000;
-  font: 500 28px/140% "Jost", sans-serif;
-}
-
-.annual-pricing {
-  color: #000000;
-  text-align: center;
-  font: 500 28px/140% "Jost", sans-serif;
-  left: 928px;
-  top: 6533px;
-}
-
-.payment-methods {
-  color: #000000;
-  font: 500 28px/140% "Jost", sans-serif;
-}
-
-._2950-month {
-  color: #000000;
-  text-align: center;
-  font: 500 28px/140% "Jost", sans-serif;
-  left: 622px;
-  top: 6459px;
+  position: relative;
 }
 
 .contact-us {
-  background: #21231d;
   padding: 0.7em 2em;
 }
 
-.contact-us>* {
-  color: #a0e1e1;
+.contact-us>*,
+.sign-up {
+  color: var(--theme-color);
   text-align: left;
   font: 500 22px/50px "Jost", sans-serif;
-}
-
-._3540 {
-  color: #000000;
-  text-align: center;
-  font: 500 26px/140% "Jost", sans-serif;
-  text-decoration: line-through;
-  left: 529px;
-  top: 6461px;
 }
 
 .pricing-frame {
@@ -505,24 +406,8 @@ span {
   gap: 2rem;
 }
 
-.designs-that-consistently-maintain-high-quality-and-fast-delivery {
-  color: #000000;
-  text-align: center;
-  font: 200 28px/140% "Jost", sans-serif;
-  left: calc(50% - 375px);
-  top: 3184px;
-}
-
 #work {
   background: #e3ecf8;
-}
-
-.recent-work2 {
-  color: #000000;
-  text-align: center;
-  font: 500 40px/140% "Jost", sans-serif;
-  left: calc(50% - 124px);
-  top: 3098px;
 }
 
 .works-grid {
@@ -548,17 +433,13 @@ span {
   padding-bottom: 0;
 }
 
-.if-your-specific-design-isn-t-mentioned-in-the-list-please-inform-us-and-we-ll-explore-the-possibility-of-tailoring-it-to-meet-your-requirements {
-  color: #000000;
-  text-align: center;
-  font: 200 28px/140% "Jost", sans-serif;
+#package .subheading {
   max-width: 74rem;
 }
 
 .we-engage-in-the-creation-of-various-designs {
-  color: #000000;
   text-align: center;
-  font: 500 40px/140% "Jost", sans-serif;
+  font: 600 40px/140% "Jost", sans-serif;
   padding-bottom: 1rem;
 }
 
@@ -610,8 +491,6 @@ span {
   gap: 2rem;
   align-items: flex-start;
   justify-content: flex-start;
-  left: 151px;
-  top: 5496px;
 }
 
 .todo-type-1-completed {
@@ -658,66 +537,14 @@ span {
 }
 
 .group-39492-1 {
-  background: #21231d;
+  background: var(--theme-gray);
   border-radius: 25px;
   max-width: 45vw;
 }
 
-
-.share-your-design-content-logos-or-any-user-research-insights-that-will-guide-the-creation-of-your-design {
-  color: #21231d;
-  text-align: left;
-  font: 200 22px/140% "Jost", sans-serif;
-}
-
-.share-your-media-assets-on {
-  color: #21231d;
+.communicate-channels h3 {
+  color: var(--theme-gray);
   font: 500 28px/140% "Jost", sans-serif;
-}
-
-.drive {
-  left: 1072px;
-  top: 8167px;
-  overflow: visible;
-}
-
-.utilize-trello-to-oversee-your-design-board-effortlessly-track-active-queued-and-finished-tasks {
-  color: #21231d;
-  text-align: left;
-  font: 200 22px/140% "Jost", sans-serif;
-}
-
-.administer-through {
-  color: #21231d;
-  font: 500 28px/140% "Jost", sans-serif;
-}
-
-.vector48 {
-  left: 969px;
-  top: 8027px;
-  overflow: visible;
-}
-
-.engage-in-continuous-conversations-with-your-dedicated-designer-by-integrating-them-into-your-email {
-  color: #21231d;
-  text-align: left;
-  font: 200 22px/140% "Jost", sans-serif;
-}
-
-.communicate-through-email {
-  color: #21231d;
-  font: 500 28px/140% "Jost", sans-serif;
-  left: calc(50% - 5px);
-}
-
-.image-2 {
-
-  left: 1004px;
-  top: 7880px;
-}
-
-.rectangle-8 {
-  background: #21231d;
 }
 
 .what-s-the-process {
@@ -726,8 +553,7 @@ span {
 
 .what-s-the-process span {
   text-align: center;
-  color: #a0e1e1;
-
+  color: var(--theme-color);
   font: 500 40px/140% "Jost", sans-serif;
 }
 
@@ -762,56 +588,21 @@ span {
   display: none;
 }
 
-.submit-your-ticket-on-trello-and-write-about-your-request {
-  color: #a0e1e1;
+.progress-model .desc,
+.we-make-the-revisions-up-to-your-standard,
+#benefits .grid-item {
+  color: var(--theme-color);
   text-align: center;
   font: 200 22px/140% "Jost", sans-serif;
-}
-
-.we-schedule-and-estimate-days-on-tasks {
-  color: #a0e1e1;
-  text-align: center;
-  font: 200 22px/140% "Jost", sans-serif;
-  left: calc(50% - 329px);
-  top: 7483px;
-}
-
-.we-work-on-the-designs-in-our-fastest-rate {
-  color: #a0e1e1;
-  text-align: center;
-  font: 200 22px/140% "Jost", sans-serif;
-  left: calc(50% - 130px);
-  top: 7483px;
 }
 
 .we-make-the-revisions-up-to-your-standard {
   width: 11em;
-  color: #a0e1e1;
-  text-align: center;
-  font: 200 22px/140% "Jost", sans-serif;
-  left: calc(50% - 15px);
-  top: 7619px;
-}
-
-.we-notify-you-and-review-the-designs {
-  color: #a0e1e1;
-  text-align: center;
-  font: 200 22px/140% "Jost", sans-serif;
-  left: calc(50% - -138px);
-  top: 7483px;
-}
-
-.we-assure-the-top-tier-quality {
-  color: #a0e1e1;
-  text-align: center;
-  font: 200 22px/140% "Jost", sans-serif;
-  left: calc(50% - -366px);
-  top: 7483px;
 }
 
 #process {
   padding: calc(var(--section-gap) - 1rem) 0;
-  background: #21231d;
+  background: var(--theme-gray);
   padding-bottom: 4rem;
 }
 
@@ -819,6 +610,17 @@ span {
   overflow: scroll;
   display: flex;
   width: 100%;
+}
+
+#top-slider::-webkit-scrollbar,
+.scrollable::-webkit-scrollbar {
+  display: none;
+}
+
+#top-slider,
+.scrollable {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .progress-model {
@@ -858,7 +660,7 @@ span {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 88.47px;
   border-style: solid;
-  border-color: #a0e1e1;
+  border-color: var(--theme-color);
   border-width: 1px;
   padding: 14.16px 42.47px 14.16px 42.47px;
   display: flex;
@@ -875,8 +677,8 @@ span {
   width: 19rem
 }
 
-.submit-request {
-  color: #a0e1e1;
+.progress-model .steps p {
+  color: var(--theme-color);
   text-align: left;
   font: 700 28px/161% "Jost", sans-serif;
   position: relative;
@@ -894,7 +696,7 @@ span {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 88.47px;
   border-style: solid;
-  border-color: #a0e1e1;
+  border-color: var(--theme-color);
   border-width: 1px;
   padding: 14.16px 42.47px 14.16px 42.47px;
   display: flex;
@@ -911,13 +713,6 @@ span {
   width: 11rem
 }
 
-.to-do {
-  color: #a0e1e1;
-  text-align: left;
-  font: 700 28px/161% "Jost", sans-serif;
-  position: relative;
-}
-
 .line-1 {
   border-radius: 0px;
   flex-shrink: 0;
@@ -930,7 +725,7 @@ span {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 88.47px;
   border-style: solid;
-  border-color: #a0e1e1;
+  border-color: var(--theme-color);
   border-width: 1px;
   padding: 14.16px 42.47px 14.16px 42.47px;
   display: flex;
@@ -947,13 +742,6 @@ span {
   width: 16rem
 }
 
-.in-progress {
-  color: #a0e1e1;
-  text-align: left;
-  font: 700 28px/161% "DM Sans", sans-serif;
-  position: relative;
-}
-
 .line-3 {
   border-radius: 0px;
   flex-shrink: 0;
@@ -966,7 +754,7 @@ span {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 88.47px;
   border-style: solid;
-  border-color: #a0e1e1;
+  border-color: var(--theme-color);
   border-width: 1px;
   padding: 14.16px 42.47px 14.16px 42.47px;
   display: flex;
@@ -983,13 +771,6 @@ span {
   width: 11rem;
 }
 
-.review {
-  color: #a0e1e1;
-  text-align: left;
-  font: 700 28px/161% "DM Sans", sans-serif;
-  position: relative;
-}
-
 .line-2 {
   border-radius: 0px;
   flex-shrink: 0;
@@ -1002,7 +783,7 @@ span {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 88.47px;
   border-style: solid;
-  border-color: #a0e1e1;
+  border-color: var(--theme-color);
   border-width: 1px;
   padding: 14.16px 42.47px 14.16px 42.47px;
   display: flex;
@@ -1015,13 +796,6 @@ span {
   position: relative;
 }
 
-.testing {
-  color: #a0e1e1;
-  text-align: left;
-  font: 700 28px/161% "DM Sans", sans-serif;
-  position: relative;
-}
-
 .line-4 {
   border-radius: 0px;
   flex-shrink: 0;
@@ -1031,7 +805,7 @@ span {
 }
 
 .frame-153 {
-  background: #a0e1e1;
+  background: var(--theme-color);
   border-radius: 100%;
   padding: 1em;
   flex-shrink: 0;
@@ -1055,13 +829,11 @@ span {
 
 
 .vector-15 {
-  left: 705px;
-  top: 7556px;
   overflow: visible;
 }
 
 #faq {
-  background: #21231d;
+  background: var(--theme-gray);
   width: 100%;
   padding: 6rem 3rem;
 }
@@ -1082,7 +854,7 @@ span {
 }
 
 .fa-qs2 {
-  color: #a0e1e1;
+  color: var(--theme-color);
   text-align: center;
   font: 500 40px/140% "Jost", sans-serif;
   justify-self: center;
@@ -1090,24 +862,12 @@ span {
 }
 
 .let-s-get-started {
-  color: #000000;
   text-align: center;
   font: 700 85px/100px "Jost", sans-serif;
-  left: calc(50% - 316px);
-  top: 10619px;
 }
 
-.rectangle-16 {
-  background: #21231d;
+#sign-up-button {
   padding: 1em 4em;
-}
-
-.sign-up {
-  color: #a0e1e1;
-  text-align: left;
-  font: 500 22px/50px "Jost", sans-serif;
-  left: 681px;
-  top: 10779px;
 }
 
 .splide__slide img {
@@ -1117,7 +877,7 @@ span {
 }
 
 #benefits {
-  background: #21231d;
+  background: var(--theme-gray);
 }
 
 .intro-grid {
@@ -1145,29 +905,11 @@ span {
 }
 
 .design-doesn-t-need-to-be-challenging-we-simplify-it-for-you {
-  color: #a0e1e1;
+  color: var(--theme-color);
   text-align: center;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 140%;
   font-size: 40px;
-}
-
-.join-our-monthly-subscription-and-order-unlimited-designs {
-  color: #a0e1e1;
-  text-align: center;
-  font: 200 22px/140% "Jost", sans-serif;
-}
-
-.on-average-your-design-will-be-ready-within-3-to-5-business-days-mon-to-fri {
-  color: #a0e1e1;
-  text-align: center;
-  font: 200 22px/140% "Jost", sans-serif;
-}
-
-.we-re-committed-to-making-revisions-until-you-re-well-pleased-with-the-designs {
-  color: #a0e1e1;
-  text-align: center;
-  font: 200 22px/140% "Jost", sans-serif;
 }
 
 .frame3-title {
@@ -1182,17 +924,14 @@ span {
 }
 
 .pay-a-monthly-fee-and-ask-for-as-many-designs-as-you-want-no-limits {
-  color: #21231d;
+  color: var(--theme-gray);
   text-align: center;
-  font: 500 40px/140% "Jost", sans-serif;
+  font: 600 40px/140% "Jost", sans-serif;
   display: inline-block;
   max-width: 55rem;
 }
 
-.we-do-things-differently-unlike-traditional-freelance-design-we-offer-a-subscription-service-to-substitutes-undependable-freelancers-and-costly-agencies {
-  color: #21231d;
-  text-align: center;
-  font: 200 28px/140% "Jost", sans-serif;
+#difference .subheading {
   max-width: 65rem;
 }
 
@@ -1207,128 +946,15 @@ span {
   top: -16px;
 }
 
-.group11 {
-  left: 0px;
-  top: 0px;
-  overflow: visible;
-}
-
-.wired-outline-453-savings-pig-1 {
-
-  left: 228px;
-  top: 2237px;
-}
-
-.rectangle-17 {
-  background: #21231d;
-}
-
-.wired-outline-955-demand-1-1 {
-
-  left: 653px;
-  top: 2242px;
-}
-
-.wired-outline-45-clock-time-1-1 {
-
-  left: 1076px;
-  top: 2247px;
-}
-
-.wired-outline-751-share-1 {
-
-  left: 1069px;
-  top: 2549px;
-}
-
-.wired-outline-35-edit-1-1 {
-
-  left: 228px;
-  top: 2526px;
-}
-
-.wired-outline-1865-shooting-stars-1 {
-
-  left: 653px;
-  top: 2545px;
-}
-
-.steady-monthly-fee {
-  color: #000000;
-  text-align: center;
-  font: 500 22px/140% "Jost", sans-serif;
-}
-
-.feel-free-to-include-any-number-of-design-requests-on-your-board {
-  color: #000000;
+.grid-item p {
   text-align: center;
   font: 200 22px/140% "Jost", sans-serif;
-}
-
-.receive-your-design-individually-typically-within-just-3-to-5-days {
-  color: #000000;
-  text-align: center;
-  font: 200 22px/140% "Jost", sans-serif;
-}
-
-.experience-a-consistent-unchanging-monthly-fee {
-  color: #000000;
-  text-align: center;
-  font: 200 22px/140% "Jost", sans-serif;
-}
-
-.unparalleled-design-quality-available-whenever-you-require-it {
-  color: #000000;
-  text-align: center;
-  font: 200 22px/140% "Jost", sans-serif;
-}
-
-.every-design-is-uniquely-crafted-for-you-belongs-entirely-to-you {
-  color: #000000;
-  text-align: center;
-  font: 200 22px/140% "Jost", sans-serif;
-}
-
-.adjust-your-scale-to-your-needs-pause-or-cancel-anytime {
-  color: #000000;
-  text-align: center;
-  font: 200 22px/140% "Jost", sans-serif;
-}
-
-.premium-quality {
-  color: #000000;
-  text-align: center;
-  font: 500 22px/140% "Jost", sans-serif;
-}
-
-.uniquely-crafted-for-you {
-  color: #000000;
-  text-align: center;
-  font: 500 22px/140% "Jost", sans-serif;
-}
-
-.versatile-designed-to-scale {
-  color: #000000;
-  text-align: center;
-  font: 500 22px/140% "Jost", sans-serif;
-}
-
-.unlimited-request {
-  color: #000000;
-  text-align: center;
-  font: 500 22px/140% "Jost", sans-serif;
-}
-
-.express-delivery {
-  color: #000000;
-  text-align: center;
-  font: 500 22px/140% "Jost", sans-serif;
 }
 
 .nav {
   flex-direction: row;
   height: 4em;
-  background: #21231d;
+  background: var(--theme-gray);
   border-radius: 25px;
   gap: 1rem;
   padding-left: 2rem;
@@ -1348,59 +974,23 @@ span {
   overflow: visible;
 }
 
-.benefits2 {
-  color: #a0e1e1;
+.nav a,
+#navbar a {
+  color: var(--theme-color);
   text-align: left;
   font: 500 18px/50px "Jost", sans-serif;
-  left: calc(50% - 267px);
-  top: 728px;
-}
-
-.work {
-  color: #a0e1e1;
-  text-align: left;
-  font: 500 18px/50px "Jost", sans-serif;
-  left: calc(50% - 141px);
-  top: 728px;
-}
-
-.package {
-  color: #a0e1e1;
-  text-align: left;
-  font: 500 18px/50px "Jost", sans-serif;
-  left: calc(50% - 36px);
-  top: 728px;
-}
-
-.pricing4 {
-  color: #a0e1e1;
-  text-align: left;
-  font: 500 18px/50px "Jost", sans-serif;
-  left: calc(50% - -93px);
-  top: 728px;
-}
-
-.fa-qs3 {
-  color: #a0e1e1;
-  text-align: left;
-  font: 500 18px/50px "Jost", sans-serif;
-  left: calc(50% - -219px);
-  top: 728px;
 }
 
 .login-button {
-  background: #a0e1e1;
+  background: var(--theme-color);
   border-radius: 25px;
   border-style: solid;
-  border-color: #21231d;
+  border-color: var(--theme-gray);
   border-width: 1px;
-
-  left: 1021px;
-  top: 718px;
 }
 
-.login {
-  color: #21231d;
+.nav .login {
+  color: var(--theme-gray);
   text-align: left;
   font: 500 18px/50px "Jost", sans-serif;
   padding: 0 1.5em;
@@ -1473,6 +1063,7 @@ button,
   margin: 1rem 0;
   padding: 0.2rem 2rem;
   border-radius: 25px;
+  width: max-content;
 }
 
 .button-shape.large {
@@ -1481,11 +1072,12 @@ button,
 
 .button-shape.xlarge {
   padding: 0.8rem 5rem;
+  white-space: nowrap;
 }
 
-.button-shape.contact-us {
-  padding: 0.75rem 3.5rem;
-  color: #a0e1e1;
+.button-shape .contact-us {
+  padding: 0.75rem 0.5rem;
+  color: var(--theme-color);
   text-align: left;
   font: 500 1.3rem/50px "Jost", sans-serif;
 }
@@ -1504,8 +1096,6 @@ button a {
   color: #ffffff;
   text-align: left;
   font: 500 28px/140% "Jost", sans-serif;
-  left: 266px;
-  top: 10282px;
 }
 
 .accordion-title {
@@ -1547,7 +1137,7 @@ button a {
 
 .accordion hr {
 
-  border-top: #A0E1E1 solid 5px;
+  border-top: var(--theme-color) solid 5px;
 }
 
 fieldset {
@@ -1579,20 +1169,20 @@ header button {
     height: 5rem;
   }
 
-  .button-shape.xlarge {
-    padding: 0.8rem 4rem;
-  }
-
   header {
     display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: center;
     position: fixed;
-    background-color: #a0e1e1;
+    background-color: var(--theme-color);
     z-index: 100;
     padding-bottom: 0rem;
     padding-top: 0rem;
+  }
+
+  #top {
+    padding-top: 4rem;
   }
 
   .header-title {
@@ -1613,7 +1203,7 @@ header button {
   #navbar {
     display: flex;
     flex-direction: column;
-    background-color: #21231D;
+    background-color: var(--theme-gray);
     width: 100vw;
     gap: 1em;
     padding: 1rem 0;
@@ -1625,21 +1215,25 @@ header button {
 
   .login {
     background-color: unset;
-    color: #a0e1e1;
-    border-top: 1px solid #a0e1e1;
+    color: var(--theme-color);
+    border-top: 1px solid var(--theme-color);
     border-radius: unset;
     padding-top: 1rem;
   }
 
   .frame {
-    padding: 6rem 1.4rem;
+    padding: 5rem 1.4rem;
+  }
+
+  .todos hr {
+    padding: 1rem;
   }
 
   .nav {
     display: none;
   }
 
-  .a-design-studio {
+  #top h1 {
     font-size: 2.5rem;
     line-height: 1.4em;
     width: 90vw;
@@ -1647,8 +1241,18 @@ header button {
     padding-top: var(--section-gap)
   }
 
+  #top-slider {
+    width: 100vw;
+    transform: translateX(0rem);
+  }
+
+  #top-slider div {
+    padding: 0 !important
+  }
+
+
   #top-slider img {
-    height: 9rem;
+    height: 15rem;
   }
 
   .underline-02 {
@@ -1661,7 +1265,7 @@ header button {
     width: 6em
   }
 
-  .star {
+  #star {
     position: absolute;
     top: unset
   }
@@ -1676,21 +1280,33 @@ header button {
   }
 
   #benefits-grid {
-    padding: 7rem 0.75rem 0rem 0.75rem;
+    padding: 7rem 0.75rem 1rem 0.75rem;
+  }
+
+  #work .subheading {
+    font-size: 1.5rem;
   }
 
   .maximize-your-business-through-on-demand-flexibility-in-design {
+    padding: 0 2rem;
     line-height: 1.2em;
     font-size: 1.4rem;
   }
 
-  .design-doesn-t-need-to-be-challenging-we-simplify-it-for-you,
-  .pay-a-monthly-fee-and-ask-for-as-many-designs-as-you-want-no-limits {
+  .design-doesn-t-need-to-be-challenging-we-simplify-it-for-you {
     font-size: 2rem;
   }
 
-  .pay-a-monthly-fee-and-ask-for-as-many-designs-as-you-want-no-limits {
+  .pay-a-monthly-fee-and-ask-for-as-many-designs-as-you-want-no-limits,
+  .we-engage-in-the-creation-of-various-designs,
+  .our-package-includes {
     padding: unset;
+    font-size: 2em;
+  }
+
+  .our-package-includes {
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
     font-size: 2em;
   }
 
@@ -1704,13 +1320,17 @@ header button {
     top: 25em;
   }
 
+  .round-star svg {
+    height: 8rem;
+  }
+
   #paperplane {
     right: 2rem;
     width: 5rem;
   }
 
-  .we-do-things-differently-unlike-traditional-freelance-design-we-offer-a-subscription-service-to-substitutes-undependable-freelancers-and-costly-agencies,
-  .tailored-pricing-for-businesses-of-every-scale-clear-transparency-on-your-costs,
+  #difference .subheading,
+  #pricing .subheading,
   #package p {
     font-size: 1.5em;
     max-width: 65rem;
@@ -1722,7 +1342,11 @@ header button {
     display: flex;
     flex-direction: column;
     gap: 3em;
-    padding: 2rem;
+    padding: 2rem 0.9rem;
+  }
+
+  .works-grid {
+    gap: 1rem;
   }
 
   #deco-star {
@@ -1735,7 +1359,7 @@ header button {
   }
 
   .works-grid>div {
-    height: 100vw;
+    height: 23rem;
     object-fit: cover;
   }
 
@@ -1756,16 +1380,27 @@ header button {
     right: -2em;
   }
 
-  .payment-methods img,
-  .book-a-call img {
+  .s-heading {
+    font-size: 2em;
+    padding: 0 1rem;
+  }
+
+  #payment-methods img,
+  #book-a-call img {
     left: 0;
   }
 
   .pricing-frame {
     position: absolute;
-    top: -0.5em;
+    top: -0.3em;
     left: unset;
-    right: -1em;
+    right: 0em;
+    height: 1rem;
+  }
+
+
+  .badge#popular {
+    top: 1em;
   }
 
   .cost-table {
@@ -1774,13 +1409,12 @@ header button {
     gap: 0
   }
 
-  .design-column,
-  .design-webflow-list {
+  .cost-table .list {
     border-radius: 0 0 25px 25px;
     margin-bottom: 1em;
   }
 
-  .design-webflow {
+  .design {
     border-radius: 25px 25px 0 0;
     padding-bottom: 1rem;
 
@@ -1792,7 +1426,8 @@ header button {
   }
 
   #pricing {
-    padding-top: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
   }
 
   .design {
@@ -1808,9 +1443,35 @@ header button {
 
   .cost-table .common>*,
   .cost-table .common img {
+    display: flex;
+    flex-direction: column;
     align-self: center;
     text-align: center;
   }
+
+  #payment-methods p,
+  #book-a-call p {
+    text-align: unset;
+  }
+
+
+  .illustration-only {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem !important;
+    padding-bottom: 0;
+    align-items: center;
+  }
+
+  .illustration-only .desc {
+    text-align: center;
+  }
+
+  .cost-table .common>* {
+    padding: 0 2rem;
+
+  }
+
 
   .cost-table p,
   .cost-table h3 {
@@ -1858,6 +1519,10 @@ header button {
     width: 0.75em;
   }
 
+  #process {
+    padding: 1rem 0;
+  }
+
   #explan {
     flex-direction: column;
     padding: 6rem 2rem;
@@ -1868,8 +1533,18 @@ header button {
     max-width: unset;
   }
 
-  .communicate-channels h3 {
+  .communicate-channels h3,
+  .accordion-title-text {
     font-size: 1.5em;
+    font-weight: 600;
+  }
+
+  .drive {
+    width: 1.2em;
+  }
+
+  .vector48 {
+    width: 1em;
   }
 
   #faq {
@@ -1881,6 +1556,10 @@ header button {
     width: 100%;
   }
 
+  .shapes {
+    width: 4rem
+  }
+
   .accordion {
     width: 100%;
     padding: 0 1em;
@@ -1888,6 +1567,10 @@ header button {
 
   .accordion-trigger {
     padding: 0;
+  }
+
+  .accordion-icon {
+    right: 1em;
   }
 
   .accordion-title-text {
